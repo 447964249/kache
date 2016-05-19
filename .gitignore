@@ -1,1 +1,11 @@
-# Created by .ignore support plugin (hsz.mobi)
+bin
+gen
+build
+.settings
+target
+*.iml
+.idea
+local.properties
+.gradle
+.svn
+.DS_Store

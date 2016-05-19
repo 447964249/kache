@@ -17,6 +17,13 @@ import android.app.Application;
 import android.content.Context;
 
 import com.easemob.EMCallBack;
+import com.easemob.chatuidemo.bean.Contact;
+import com.easemob.chatuidemo.bean.Group;
+import com.easemob.chatuidemo.bean.Member;
+import com.easemob.chatuidemo.bean.User;
+
+import java.util.ArrayList;
+import java.util.HashMap;
 
 public class SuperWeChatApplication extends Application {
 public  static String MSG_ROOT="127.0.1.1:1614";
@@ -30,6 +37,21 @@ public  static String MSG_ROOT="127.0.1.1:1614";
 	 */
 	public static String currentUserNick = "";
 	public static DemoHXSDKHelper hxSDKHelper = new DemoHXSDKHelper();
+
+	/**全局的当前登录用户对象*/
+	private User user;
+	/**全局的当前登录用户的好友列表*/
+	private ArrayList<Contact> contactList = new ArrayList<Contact>();
+	/**全局的当前登录用户的好友集合*/
+	private HashMap<String,Contact> userList = new HashMap<String, Contact>();
+	/**全局的群组集合*/
+	private ArrayList<Group> groupList = new ArrayList<Group>();
+	/**全局的当前公共群列表*/
+	private ArrayList<Group> publicGroupList = new ArrayList<Group>();
+	/**全局的群组成员列表*/
+	private HashMap<String,ArrayList<Member>> groupMembers = new HashMap<String, ArrayList<Member>>();
+
+
 
 	@Override
 	public void onCreate() {
@@ -84,7 +106,7 @@ public  static String MSG_ROOT="127.0.1.1:1614";
 	/**
 	 * 设置用户名
 	 *
-	 * @param user
+	 * @param username
 	 */
 	public void setUserName(String username) {
 	    hxSDKHelper.setHXId(username);
