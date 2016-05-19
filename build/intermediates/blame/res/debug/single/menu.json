@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\menu\\delete_message.xml",
+        "source": "E:\\SuperWeChat\\res\\menu\\delete_message.xml"
+    },
+    {
+        "merged": "E:\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\menu\\context_tab_contact.xml",
+        "source": "E:\\SuperWeChat\\res\\menu\\context_tab_contact.xml"
+    },
+    {
+        "merged": "E:\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\menu\\context_contact_list.xml",
+        "source": "E:\\SuperWeChat\\res\\menu\\context_contact_list.xml"
+    },
+    {
+        "merged": "E:\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\menu\\remove_from_blacklist.xml",
+        "source": "E:\\SuperWeChat\\res\\menu\\remove_from_blacklist.xml"
+    },
+    {
+        "merged": "E:\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\menu\\delete_contact.xml",
+        "source": "E:\\SuperWeChat\\res\\menu\\delete_contact.xml"
+    }
+]
