@@ -2,7 +2,7 @@ package com.easemob.chatuidemo.bean;
 
 
 /**
- * User entity. @author MyEclipse Persistence Tools
+ * EMUser entity. @author MyEclipse Persistence Tools
  */
 public class User extends Location implements java.io.Serializable {
 	private static final long serialVersionUID = 6848921231724157394L;
@@ -18,6 +18,7 @@ public class User extends Location implements java.io.Serializable {
 	private String muserNick;
 	private Integer muserUnreadMsgCount;
 
+	private String heade;
 	// Constructors
 
 	/** default constructor */
@@ -81,15 +82,23 @@ public class User extends Location implements java.io.Serializable {
 		return this.muserUnreadMsgCount;
 	}
 
+	public String getHeade() {
+		return heade;
+	}
+
+	public void setHeade(String heade) {
+		this.heade = heade;
+	}
+
 	public void setMUserUnreadMsgCount(Integer MUserUnreadMsgCount) {
 		this.muserUnreadMsgCount = MUserUnreadMsgCount;
 	}
 
 	@Override
 	public String toString() {
-		return "User [MUserId=" + muserId + ", MUserName=" + muserName
+		return "EMUser [MUserId=" + muserId + ", MUserName=" + muserName
 				+ ", MUserPassword=" + muserPassword + ", MUserNick="
-				+ muserNick + ", MUserUnreadMsgCount=" + muserUnreadMsgCount
+				+ muserNick + ", MUserUnreadMsgCount=" + muserUnreadMsgCount + ", heade="+heade
 				+ "]";
 	}
 	

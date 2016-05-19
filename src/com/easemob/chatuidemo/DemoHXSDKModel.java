@@ -20,9 +20,9 @@ import android.content.Context;
 
 import com.easemob.applib.model.DefaultHXSDKModel;
 import com.easemob.chatuidemo.db.DemoDBManager;
-import com.easemob.chatuidemo.db.UserDao;
+import com.easemob.chatuidemo.db.EMUserDao;
 import com.easemob.chatuidemo.domain.RobotUser;
-import com.easemob.chatuidemo.domain.User;
+import com.easemob.chatuidemo.domain.EMUser;
 
 public class DemoHXSDKModel extends DefaultHXSDKModel{
 
@@ -39,29 +39,29 @@ public class DemoHXSDKModel extends DefaultHXSDKModel{
         return true;
     }
     
-    public boolean saveContactList(List<User> contactList) {
-        UserDao dao = new UserDao(context);
+    public boolean saveContactList(List<EMUser> contactList) {
+        EMUserDao dao = new EMUserDao(context);
         dao.saveContactList(contactList);
         return true;
     }
 
-    public Map<String, User> getContactList() {
-        UserDao dao = new UserDao(context);
+    public Map<String, EMUser> getContactList() {
+        EMUserDao dao = new EMUserDao(context);
         return dao.getContactList();
     }
     
-    public void saveContact(User user){
-    	UserDao dao = new UserDao(context);
+    public void saveContact(EMUser user){
+    	EMUserDao dao = new EMUserDao(context);
     	dao.saveContact(user);
     }
     
     public Map<String, RobotUser> getRobotList(){
-    	UserDao dao = new UserDao(context);
+    	EMUserDao dao = new EMUserDao(context);
     	return dao.getRobotUser();
     }
 
     public boolean saveRobotList(List<RobotUser> robotList){
-    	UserDao dao = new UserDao(context);
+    	EMUserDao dao = new EMUserDao(context);
     	dao.saveRobotUser(robotList);
     	return true;
     }
