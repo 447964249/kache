@@ -2,8 +2,10 @@ package com.easemob.chatuidemo.db;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.widget.TableRow;
 
 import com.easemob.chatuidemo.I;
 import com.easemob.chatuidemo.bean.User;
@@ -50,9 +52,21 @@ public class UserDao extends SQLiteOpenHelper {
         long insert = db.update(I.User.TABLE_NAME,values,"where"+I.User.USER_NAME+"=?",new String[]{user.getMUserName()});
         return insert>0;
     }
-   /* public  User findUserByUsername(){
-
-    }*/
+    static final    String TABLE_NAME							=		"user";
+    public  User findUserByUsername(String userName){
+SQLiteDatabase db =getReadableDatabase();
+        String sql="select*from "+TABLE_NAME + " where " +I.User.USER_NAME  + " =?";
+        Cursor c =db.rawQuery(sql,new String[]{userName});
+        if(c.moveToNext()){
+            int uid = c.getInt(c.getColumnIndex(I.User.USER_ID));
+            String nick = c.getString(c.getColumnIndex(I.User.NICK));
+            String password = c.getString(c.getColumnIndex(I.User.PASSWORD));
+            int unReaderMsgCount = c.getInt(c.getColumnIndex(I.User.UN_READ_MSG_COUNT));
+            return new User(uid, userName, password, nick, unReaderMsgCount);
+        }
+        c.close();
+        return null;
+    }
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 
