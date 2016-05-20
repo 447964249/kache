@@ -14,7 +14,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:src="@drawable/welcom_logo" />
+            android:src="@drawable/geek" />
     </RelativeLayout>
 
     <LinearLayout
@@ -48,7 +48,7 @@
                 android:layout_centerVertical="true"
                 android:layout_toLeftOf="@id/iv_username"
                 android:background="@null"
-                android:hint="@string/user_name"
+                android:hint="用户名"
                 android:paddingLeft="10dip"
                 android:singleLine="true"
                 android:textSize="18sp" />
@@ -78,7 +78,7 @@
                 android:layout_centerVertical="true"
                 android:layout_toLeftOf="@id/iv_password"
                 android:background="@null"
-                android:hint="@string/password"
+                android:hint="密码"
                 android:inputType="textPassword"
                 android:paddingLeft="10dip"
                 android:singleLine="true"
@@ -109,7 +109,7 @@
                 android:layout_centerVertical="true"
                 android:layout_toLeftOf="@id/iv_password2"
                 android:background="@null"
-                android:hint="@string/confirmpassword"
+                android:hint="重复密码"
                 android:inputType="textPassword"
                 android:paddingLeft="10dip"
                 android:singleLine="true"
@@ -134,7 +134,7 @@
                 android:onClick="register"
                 android:paddingBottom="7dp"
                 android:paddingTop="7dp"
-                android:text="@string/register"
+                android:text="注册"
                 android:textColor="@android:color/white"
                 android:textSize="20sp" />
         </LinearLayout>
