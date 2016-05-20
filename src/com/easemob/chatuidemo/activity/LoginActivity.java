@@ -75,6 +75,9 @@ public class LoginActivity extends BaseActivity {
 		usernameEditText = (EditText) findViewById(R.id.username);
 		passwordEditText = (EditText) findViewById(R.id.password);
 
+
+
+
 		// 如果用户名改变，清空密码
 		usernameEditText.addTextChangedListener(new TextWatcher() {
 			@Override

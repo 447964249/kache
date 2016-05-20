@@ -176,6 +176,10 @@
         "source": "E:\\SuperWeChat\\res\\layout\\fragment_chatroom.xml"
     },
     {
+        "merged": "E:\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\popu_show_avatar.xml",
+        "source": "E:\\SuperWeChat\\res\\layout\\popu_show_avatar.xml"
+    },
+    {
         "merged": "E:\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_robots.xml",
         "source": "E:\\SuperWeChat\\res\\layout\\fragment_robots.xml"
     },

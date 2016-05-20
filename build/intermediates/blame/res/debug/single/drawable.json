@@ -228,6 +228,10 @@
         "source": "E:\\SuperWeChat\\res\\drawable\\btn_green_selector.xml"
     },
     {
+        "merged": "E:\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_pop_avatar.xml",
+        "source": "E:\\SuperWeChat\\res\\drawable\\selector_pop_avatar.xml"
+    },
+    {
         "merged": "E:\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_bg_selector.xml",
         "source": "E:\\SuperWeChat\\res\\drawable\\checkbox_bg_selector.xml"
     },
