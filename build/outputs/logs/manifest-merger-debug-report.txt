@@ -530,9 +530,9 @@ ADDED from E:\SuperWeChat\AndroidManifest.xml:324:17-62
 	android:name
 		ADDED from E:\SuperWeChat\AndroidManifest.xml:324:25-60
 meta-data#EASEMOB_APPKEY
-ADDED from E:\SuperWeChat\AndroidManifest.xml:331:9-333:55
+ADDED from E:\SuperWeChat\AndroidManifest.xml:331:9-333:44
 	android:value
-		ADDED from E:\SuperWeChat\AndroidManifest.xml:333:13-52
+		ADDED from E:\SuperWeChat\AndroidManifest.xml:333:13-41
 	android:name
 		ADDED from E:\SuperWeChat\AndroidManifest.xml:332:13-42
 service#com.easemob.chat.EMChatService

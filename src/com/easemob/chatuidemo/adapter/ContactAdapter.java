@@ -29,24 +29,21 @@ import android.widget.ImageView;
 import android.widget.SectionIndexer;
 import android.widget.TextView;
 
-import com.easemob.chat.EMChatManager;
-import com.easemob.chat.EMConversation;
 import com.easemob.chatuidemo.Constant;
 import com.easemob.chatuidemo.R;
-import com.easemob.chatuidemo.domain.User;
+import com.easemob.chatuidemo.domain.EMUser;
 import com.easemob.chatuidemo.utils.UserUtils;
-import com.easemob.chatuidemo.widget.Sidebar;
 import com.easemob.util.EMLog;
 
 /**
  * 简单的好友Adapter实现
  *
  */
-public class ContactAdapter extends ArrayAdapter<User>  implements SectionIndexer{
+public class ContactAdapter extends ArrayAdapter<EMUser>  implements SectionIndexer{
     private static final String TAG = "ContactAdapter";
 	List<String> list;
-	List<User> userList;
-	List<User> copyUserList;
+	List<EMUser> userList;
+	List<EMUser> copyUserList;
 	private LayoutInflater layoutInflater;
 	private SparseIntArray positionOfSection;
 	private SparseIntArray sectionOfPosition;
@@ -54,11 +51,11 @@ public class ContactAdapter extends ArrayAdapter<User>  implements SectionIndexe
 	private MyFilter myFilter;
     private boolean notiyfyByFilter;
 
-	public ContactAdapter(Context context, int resource, List<User> objects) {
+	public ContactAdapter(Context context, int resource, List<EMUser> objects) {
 		super(context, resource, objects);
 		this.res = resource;
 		this.userList = objects;
-		copyUserList = new ArrayList<User>();
+		copyUserList = new ArrayList<EMUser>();
 		copyUserList.addAll(objects);
 		layoutInflater = LayoutInflater.from(context);
 	}
@@ -84,7 +81,7 @@ public class ContactAdapter extends ArrayAdapter<User>  implements SectionIndexe
 		    holder = (ViewHolder) convertView.getTag();
 		}
 		
-		User user = getItem(position);
+		EMUser user = getItem(position);
 		if(user == null)
 			Log.d("ContactAdapter", position + "");
 		//设置nick，demo里不涉及到完整user，用username代替nick显示
@@ -134,7 +131,7 @@ public class ContactAdapter extends ArrayAdapter<User>  implements SectionIndexe
 	}
 	
 	@Override
-	public User getItem(int position) {
+	public EMUser getItem(int position) {
 		return super.getItem(position);
 	}
 	
@@ -184,9 +181,9 @@ public class ContactAdapter extends ArrayAdapter<User>  implements SectionIndexe
 	}
 	
 	private class  MyFilter extends Filter{
-        List<User> mOriginalList = null;
+        List<EMUser> mOriginalList = null;
 		
-		public MyFilter(List<User> myList) {
+		public MyFilter(List<EMUser> myList) {
 			this.mOriginalList = myList;
 		}
 
@@ -194,7 +191,7 @@ public class ContactAdapter extends ArrayAdapter<User>  implements SectionIndexe
 		protected synchronized FilterResults performFiltering(CharSequence prefix) {
 			FilterResults results = new FilterResults();
 			if(mOriginalList==null){
-			    mOriginalList = new ArrayList<User>();
+			    mOriginalList = new ArrayList<EMUser>();
 			}
 			EMLog.d(TAG, "contacts original size: " + mOriginalList.size());
 			EMLog.d(TAG, "contacts copy size: " + copyUserList.size());
@@ -205,9 +202,9 @@ public class ContactAdapter extends ArrayAdapter<User>  implements SectionIndexe
 			}else{
 				String prefixString = prefix.toString();
 				final int count = mOriginalList.size();
-				final ArrayList<User> newValues = new ArrayList<User>();
+				final ArrayList<EMUser> newValues = new ArrayList<EMUser>();
 				for(int i=0;i<count;i++){
-					final User user = mOriginalList.get(i);
+					final EMUser user = mOriginalList.get(i);
 					String username = user.getUsername();
 					
 					if(username.startsWith(prefixString)){
@@ -237,7 +234,7 @@ public class ContactAdapter extends ArrayAdapter<User>  implements SectionIndexe
 		protected synchronized void publishResults(CharSequence constraint,
 				FilterResults results) {
 			userList.clear();
-			userList.addAll((List<User>)results.values);
+			userList.addAll((List<EMUser>)results.values);
 			EMLog.d(TAG, "publish contacts filter results size: " + results.count);
 			if (results.count > 0) {
 			    notiyfyByFilter = true;

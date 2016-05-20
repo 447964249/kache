@@ -42,7 +42,7 @@ import com.easemob.chat.EMChatManager;
 import com.easemob.chat.EMContact;
 import com.easemob.chatuidemo.DemoHXSDKHelper;
 import com.easemob.chatuidemo.R;
-import com.easemob.chatuidemo.db.UserDao;
+import com.easemob.chatuidemo.db.EMUserDao;
 import com.easemob.chatuidemo.domain.RobotUser;
 import com.easemob.exceptions.EaseMobException;
 
@@ -132,7 +132,7 @@ public class RobotsActivity extends BaseActivity {
 						// 存入内存
 						((DemoHXSDKHelper) HXSDKHelper.getInstance()).setRobotList(mMap);
 						// 存入db
-						UserDao dao = new UserDao(RobotsActivity.this);
+						EMUserDao dao = new EMUserDao(RobotsActivity.this);
 						dao.saveRobotUser(robotList);
 						adapter.notifyDataSetChanged();
 					}

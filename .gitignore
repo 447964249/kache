@@ -9,3 +9,4 @@ local.properties
 .gradle
 .svn
 .DS_Store
+.apk
