@@ -13,8 +13,9 @@ import cn.ucai.superkache.bean.User;
  * Created by Administrator on 2016/5/19.
  */
 public class UserDao extends SQLiteOpenHelper {
+    public static final  String TABLE_NAME="user";
     public UserDao(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
-        super(context, name, factory, version);
+        super(context, "user.db", factory, 1);
     }
 
     @Override
@@ -51,7 +52,7 @@ public class UserDao extends SQLiteOpenHelper {
         long insert = db.update(I.User.TABLE_NAME,values,"where"+I.User.USER_NAME+"=?",new String[]{user.getMUserName()});
         return insert>0;
     }
-    static final    String TABLE_NAME							=		"user";
+
     public  User findUserByUsername(String userName){
 SQLiteDatabase db =getReadableDatabase();
         String sql="select*from "+TABLE_NAME + " where " +I.User.USER_NAME  + " =?";
