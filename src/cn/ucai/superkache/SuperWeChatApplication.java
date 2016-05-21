@@ -26,7 +26,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class SuperWeChatApplication extends Application {
-public  static String SERVER_ROOT="127.0.1.1:1614";
+public  static String SERVER_ROOT="10.0.2.2:1614/SuperWeChatServer/Server";
 	public static Context applicationContext;
 	private static SuperWeChatApplication instance;
 	// login user name
