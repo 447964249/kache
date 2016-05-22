@@ -4,12 +4,12 @@
         "source": "E:\\SuperWeChat\\res\\layout\\activity_group_blacklist.xml"
     },
     {
-        "merged": "E:\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_group_details.xml",
-        "source": "E:\\SuperWeChat\\res\\layout\\activity_group_details.xml"
-    },
-    {
         "merged": "E:\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\listview_footer_view.xml",
         "source": "E:\\SuperWeChat\\res\\layout\\listview_footer_view.xml"
+    },
+    {
+        "merged": "E:\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_group_details.xml",
+        "source": "E:\\SuperWeChat\\res\\layout\\activity_group_details.xml"
     },
     {
         "merged": "E:\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\context_menu_for_voice.xml",
