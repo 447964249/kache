@@ -13,9 +13,12 @@
  */
 package cn.ucai.superkache.activity;
 
+import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
@@ -25,6 +28,8 @@ import android.widget.Toast;
 import com.easemob.EMError;
 import com.easemob.chat.EMChatManager;
 
+import cn.ucai.superkache.I;
+import cn.ucai.superkache.Listener.OnSetAvatarListener;
 import cn.ucai.superkache.R;
 import cn.ucai.superkache.SuperWeChatApplication;
 
@@ -36,13 +41,15 @@ import com.easemob.exceptions.EaseMobException;
  */
 public class RegisterActivity extends BaseActivity {
     private final static String TAG = RegisterActivity.class.getName();
-    Context mContext;
+    Activity mContext;
     private EditText userNameEditText;
     private EditText usernickEditText;
     private EditText passwordEditText;
     private EditText confirmPwdEditText;
     ImageView mIVAvatar;
+    String Avatar;
 
+    OnSetAvatarListener mOnSetAvatarListener;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,8 +70,33 @@ public class RegisterActivity extends BaseActivity {
     }
 
     private void setListener() {
-        onSetregisterListener();
         onLoginClickListener();
+        onSetregisterListener();
+        onSetAvatarListener();
+    }
+
+    private void onSetAvatarListener() {
+
+        findViewById(R.id.layout_user_avatar).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mOnSetAvatarListener=new OnSetAvatarListener(mContext,R.id.layout_register,getAvatarName(), I.AVATAR_TYPE_USER_PATH);
+
+            }
+        });
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (resultCode==RESULT_OK){
+            mOnSetAvatarListener.setAvatar(requestCode,data,mIVAvatar);
+        }
+    }
+
+    private String getAvatarName() {
+        Avatar = System.currentTimeMillis() + "";
+        return Avatar;
     }
 
     private void onLoginClickListener() {

@@ -172,12 +172,12 @@
         "source": "E:\\SuperWeChat\\res\\layout\\context_menu_for_location.xml"
     },
     {
-        "merged": "E:\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_chatroom.xml",
-        "source": "E:\\SuperWeChat\\res\\layout\\fragment_chatroom.xml"
-    },
-    {
         "merged": "E:\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\popu_show_avatar.xml",
         "source": "E:\\SuperWeChat\\res\\layout\\popu_show_avatar.xml"
+    },
+    {
+        "merged": "E:\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_chatroom.xml",
+        "source": "E:\\SuperWeChat\\res\\layout\\fragment_chatroom.xml"
     },
     {
         "merged": "E:\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_robots.xml",

@@ -11,7 +11,14 @@
                     "endOffset": 111
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 189,
+                        "startColumn": 4,
+                        "startOffset": 9587,
+                        "endColumn": 60,
+                        "endOffset": 9643
+                    }
                 }
             },
             {
@@ -23,7 +30,14 @@
                     "endOffset": 158
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 130,
+                        "startColumn": 4,
+                        "startOffset": 6074,
+                        "endColumn": 46,
+                        "endOffset": 6116
+                    }
                 }
             },
             {
@@ -73,7 +87,14 @@
                     "endOffset": 323
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 182,
+                        "startColumn": 4,
+                        "startOffset": 9170,
+                        "endColumn": 59,
+                        "endOffset": 9225
+                    }
                 }
             },
             {
@@ -85,7 +106,14 @@
                     "endOffset": 376
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 259,
+                        "startColumn": 4,
+                        "startOffset": 13780,
+                        "endColumn": 52,
+                        "endOffset": 13828
+                    }
                 }
             },
             {
@@ -97,7 +125,14 @@
                     "endOffset": 452
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 214,
+                        "startColumn": 4,
+                        "startOffset": 11105,
+                        "endColumn": 75,
+                        "endOffset": 11176
+                    }
                 }
             },
             {
@@ -109,7 +144,14 @@
                     "endOffset": 509
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 78,
+                        "startColumn": 4,
+                        "startOffset": 3568,
+                        "endColumn": 56,
+                        "endOffset": 3620
+                    }
                 }
             },
             {
@@ -121,7 +163,14 @@
                     "endOffset": 566
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 253,
+                        "startColumn": 4,
+                        "startOffset": 13487,
+                        "endColumn": 56,
+                        "endOffset": 13539
+                    }
                 }
             },
             {
@@ -133,7 +182,14 @@
                     "endOffset": 617
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 256,
+                        "startColumn": 4,
+                        "startOffset": 13637,
+                        "endColumn": 50,
+                        "endOffset": 13683
+                    }
                 }
             },
             {
@@ -145,7 +201,14 @@
                     "endOffset": 683
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 238,
+                        "startColumn": 4,
+                        "startOffset": 12539,
+                        "endColumn": 65,
+                        "endOffset": 12600
+                    }
                 }
             },
             {
@@ -157,7 +220,14 @@
                     "endOffset": 735
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 233,
+                        "startColumn": 4,
+                        "startOffset": 12250,
+                        "endColumn": 51,
+                        "endOffset": 12297
+                    }
                 }
             },
             {
@@ -169,7 +239,14 @@
                     "endOffset": 796
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 178,
+                        "startColumn": 4,
+                        "startOffset": 8915,
+                        "endColumn": 60,
+                        "endOffset": 8971
+                    }
                 }
             },
             {
@@ -181,7 +258,14 @@
                     "endOffset": 844
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 191,
+                        "startColumn": 4,
+                        "startOffset": 9701,
+                        "endColumn": 47,
+                        "endOffset": 9744
+                    }
                 }
             },
             {
@@ -193,7 +277,14 @@
                     "endOffset": 904
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 162,
+                        "startColumn": 4,
+                        "startOffset": 7975,
+                        "endColumn": 59,
+                        "endOffset": 8030
+                    }
                 }
             },
             {
@@ -205,7 +296,14 @@
                     "endOffset": 960
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 266,
+                        "startColumn": 4,
+                        "startOffset": 14125,
+                        "endColumn": 55,
+                        "endOffset": 14176
+                    }
                 }
             },
             {
@@ -217,7 +315,14 @@
                     "endOffset": 1031
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 223,
+                        "startColumn": 4,
+                        "startOffset": 11644,
+                        "endColumn": 70,
+                        "endOffset": 11710
+                    }
                 }
             },
             {
@@ -229,7 +334,14 @@
                     "endOffset": 1089
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 243,
+                        "startColumn": 4,
+                        "startOffset": 12865,
+                        "endColumn": 57,
+                        "endOffset": 12918
+                    }
                 }
             },
             {
@@ -279,7 +391,14 @@
                     "endOffset": 1251
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 88,
+                        "startColumn": 4,
+                        "startOffset": 4084,
+                        "endColumn": 48,
+                        "endOffset": 4128
+                    }
                 }
             },
             {
@@ -291,7 +410,14 @@
                     "endOffset": 1299
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 164,
+                        "startColumn": 4,
+                        "startOffset": 8080,
+                        "endColumn": 47,
+                        "endOffset": 8123
+                    }
                 }
             },
             {
@@ -322,7 +448,14 @@
                     "endOffset": 1405
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 264,
+                        "startColumn": 4,
+                        "startOffset": 14009,
+                        "endColumn": 52,
+                        "endOffset": 14057
+                    }
                 }
             },
             {
@@ -334,7 +467,14 @@
                     "endOffset": 1454
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 250,
+                        "startColumn": 4,
+                        "startOffset": 13299,
+                        "endColumn": 48,
+                        "endOffset": 13343
+                    }
                 }
             },
             {
@@ -346,7 +486,14 @@
                     "endOffset": 1517
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 181,
+                        "startColumn": 4,
+                        "startOffset": 9107,
+                        "endColumn": 62,
+                        "endOffset": 9165
+                    }
                 }
             },
             {
@@ -358,7 +505,14 @@
                     "endOffset": 1576
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 234,
+                        "startColumn": 4,
+                        "startOffset": 12302,
+                        "endColumn": 58,
+                        "endOffset": 12356
+                    }
                 }
             },
             {
@@ -370,7 +524,14 @@
                     "endOffset": 1636
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 235,
+                        "startColumn": 4,
+                        "startOffset": 12361,
+                        "endColumn": 59,
+                        "endOffset": 12416
+                    }
                 }
             },
             {
@@ -382,7 +543,14 @@
                     "endOffset": 1693
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 100,
+                        "startColumn": 4,
+                        "startOffset": 4690,
+                        "endColumn": 56,
+                        "endOffset": 4742
+                    }
                 }
             },
             {
@@ -394,7 +562,14 @@
                     "endOffset": 1746
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 126,
+                        "startColumn": 4,
+                        "startOffset": 5899,
+                        "endColumn": 52,
+                        "endOffset": 5947
+                    }
                 }
             },
             {
@@ -406,7 +581,14 @@
                     "endOffset": 1810
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 180,
+                        "startColumn": 4,
+                        "startOffset": 9043,
+                        "endColumn": 63,
+                        "endOffset": 9102
+                    }
                 }
             },
             {
@@ -418,7 +600,14 @@
                     "endOffset": 1870
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 219,
+                        "startColumn": 4,
+                        "startOffset": 11419,
+                        "endColumn": 59,
+                        "endOffset": 11474
+                    }
                 }
             },
             {
@@ -430,7 +619,14 @@
                     "endOffset": 1930
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 236,
+                        "startColumn": 4,
+                        "startOffset": 12421,
+                        "endColumn": 59,
+                        "endOffset": 12476
+                    }
                 }
             },
             {
@@ -442,7 +638,14 @@
                     "endOffset": 2005
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 193,
+                        "startColumn": 4,
+                        "startOffset": 9813,
+                        "endColumn": 74,
+                        "endOffset": 9883
+                    }
                 }
             },
             {
@@ -454,7 +657,14 @@
                     "endOffset": 2071
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 198,
+                        "startColumn": 4,
+                        "startOffset": 10113,
+                        "endColumn": 65,
+                        "endOffset": 10174
+                    }
                 }
             },
             {
@@ -466,7 +676,14 @@
                     "endOffset": 2125
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 151,
+                        "startColumn": 4,
+                        "startOffset": 7273,
+                        "endColumn": 53,
+                        "endOffset": 7322
+                    }
                 }
             },
             {
@@ -478,7 +695,14 @@
                     "endOffset": 2168
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 122,
+                        "startColumn": 4,
+                        "startOffset": 5693,
+                        "endColumn": 42,
+                        "endOffset": 5731
+                    }
                 }
             },
             {
@@ -490,7 +714,14 @@
                     "endOffset": 2224
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 104,
+                        "startColumn": 4,
+                        "startOffset": 4906,
+                        "endColumn": 55,
+                        "endOffset": 4957
+                    }
                 }
             },
             {
@@ -502,7 +733,14 @@
                     "endOffset": 2276
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 95,
+                        "startColumn": 4,
+                        "startOffset": 4429,
+                        "endColumn": 51,
+                        "endOffset": 4476
+                    }
                 }
             },
             {
@@ -514,7 +752,14 @@
                     "endOffset": 2340
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 217,
+                        "startColumn": 4,
+                        "startOffset": 11291,
+                        "endColumn": 63,
+                        "endOffset": 11350
+                    }
                 }
             },
             {
@@ -545,7 +790,14 @@
                     "endOffset": 2441
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 105,
+                        "startColumn": 4,
+                        "startOffset": 4962,
+                        "endColumn": 44,
+                        "endOffset": 5002
+                    }
                 }
             },
             {
@@ -557,7 +809,14 @@
                     "endOffset": 2483
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 116,
+                        "startColumn": 4,
+                        "startOffset": 5441,
+                        "endColumn": 41,
+                        "endOffset": 5478
+                    }
                 }
             },
             {
@@ -569,7 +828,14 @@
                     "endOffset": 2529
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 254,
+                        "startColumn": 4,
+                        "startOffset": 13544,
+                        "endColumn": 45,
+                        "endOffset": 13585
+                    }
                 }
             },
             {
@@ -581,7 +847,14 @@
                     "endOffset": 2601
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 251,
+                        "startColumn": 4,
+                        "startOffset": 13348,
+                        "endColumn": 71,
+                        "endOffset": 13415
+                    }
                 }
             },
             {
@@ -593,7 +866,14 @@
                     "endOffset": 2652
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 146,
+                        "startColumn": 4,
+                        "startOffset": 6977,
+                        "endColumn": 50,
+                        "endOffset": 7023
+                    }
                 }
             },
             {
@@ -605,7 +885,14 @@
                     "endOffset": 2699
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 255,
+                        "startColumn": 4,
+                        "startOffset": 13590,
+                        "endColumn": 46,
+                        "endOffset": 13632
+                    }
                 }
             },
             {
@@ -617,7 +904,14 @@
                     "endOffset": 2747
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 249,
+                        "startColumn": 4,
+                        "startOffset": 13251,
+                        "endColumn": 47,
+                        "endOffset": 13294
+                    }
                 }
             },
             {
@@ -629,7 +923,14 @@
                     "endOffset": 2794
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 241,
+                        "startColumn": 4,
+                        "startOffset": 12745,
+                        "endColumn": 46,
+                        "endOffset": 12787
+                    }
                 }
             },
             {
@@ -641,7 +942,14 @@
                     "endOffset": 2849
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 248,
+                        "startColumn": 4,
+                        "startOffset": 13196,
+                        "endColumn": 54,
+                        "endOffset": 13246
+                    }
                 }
             },
             {
@@ -653,7 +961,14 @@
                     "endOffset": 2893
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 106,
+                        "startColumn": 4,
+                        "startOffset": 5007,
+                        "endColumn": 43,
+                        "endOffset": 5046
+                    }
                 }
             },
             {
@@ -665,7 +980,14 @@
                     "endOffset": 2962
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 213,
+                        "startColumn": 4,
+                        "startOffset": 11036,
+                        "endColumn": 68,
+                        "endOffset": 11100
+                    }
                 }
             },
             {
@@ -677,7 +999,14 @@
                     "endOffset": 3032
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 260,
+                        "startColumn": 4,
+                        "startOffset": 13833,
+                        "endColumn": 69,
+                        "endOffset": 13898
+                    }
                 }
             },
             {
@@ -689,7 +1018,14 @@
                     "endOffset": 3079
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 205,
+                        "startColumn": 4,
+                        "startOffset": 10556,
+                        "endColumn": 46,
+                        "endOffset": 10598
+                    }
                 }
             },
             {
@@ -701,7 +1037,14 @@
                     "endOffset": 3142
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 166,
+                        "startColumn": 4,
+                        "startOffset": 8181,
+                        "endColumn": 62,
+                        "endOffset": 8239
+                    }
                 }
             },
             {
@@ -713,7 +1056,14 @@
                     "endOffset": 3214
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 239,
+                        "startColumn": 4,
+                        "startOffset": 12605,
+                        "endColumn": 71,
+                        "endOffset": 12672
+                    }
                 }
             },
             {
@@ -725,7 +1075,14 @@
                     "endOffset": 3273
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 194,
+                        "startColumn": 4,
+                        "startOffset": 9888,
+                        "endColumn": 58,
+                        "endOffset": 9942
+                    }
                 }
             },
             {
@@ -737,7 +1094,14 @@
                     "endOffset": 3327
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 226,
+                        "startColumn": 4,
+                        "startOffset": 11837,
+                        "endColumn": 53,
+                        "endOffset": 11886
+                    }
                 }
             },
             {
@@ -749,7 +1113,14 @@
                     "endOffset": 3391
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 218,
+                        "startColumn": 4,
+                        "startOffset": 11355,
+                        "endColumn": 63,
+                        "endOffset": 11414
+                    }
                 }
             },
             {
@@ -761,7 +1132,14 @@
                     "endOffset": 3440
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 183,
+                        "startColumn": 4,
+                        "startOffset": 9230,
+                        "endColumn": 48,
+                        "endOffset": 9274
+                    }
                 }
             },
             {
@@ -773,7 +1151,14 @@
                     "endOffset": 3495
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 197,
+                        "startColumn": 4,
+                        "startOffset": 10058,
+                        "endColumn": 54,
+                        "endOffset": 10108
+                    }
                 }
             },
             {
@@ -785,7 +1170,14 @@
                     "endOffset": 3549
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 168,
+                        "startColumn": 4,
+                        "startOffset": 8305,
+                        "endColumn": 53,
+                        "endOffset": 8354
+                    }
                 }
             },
             {
@@ -797,7 +1189,14 @@
                     "endOffset": 3610
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 167,
+                        "startColumn": 4,
+                        "startOffset": 8244,
+                        "endColumn": 60,
+                        "endOffset": 8300
+                    }
                 }
             },
             {
@@ -809,7 +1208,14 @@
                     "endOffset": 3657
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 208,
+                        "startColumn": 4,
+                        "startOffset": 10725,
+                        "endColumn": 46,
+                        "endOffset": 10767
+                    }
                 }
             },
             {
@@ -821,7 +1227,14 @@
                     "endOffset": 3710
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 215,
+                        "startColumn": 4,
+                        "startOffset": 11181,
+                        "endColumn": 52,
+                        "endOffset": 11229
+                    }
                 }
             },
             {
@@ -833,7 +1246,14 @@
                     "endOffset": 3776
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 134,
+                        "startColumn": 4,
+                        "startOffset": 6290,
+                        "endColumn": 65,
+                        "endOffset": 6351
+                    }
                 }
             },
             {
@@ -845,7 +1265,14 @@
                     "endOffset": 3845
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 176,
+                        "startColumn": 4,
+                        "startOffset": 8763,
+                        "endColumn": 68,
+                        "endOffset": 8827
+                    }
                 }
             },
             {
@@ -857,7 +1284,14 @@
                     "endOffset": 3909
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 159,
+                        "startColumn": 4,
+                        "startOffset": 7797,
+                        "endColumn": 63,
+                        "endOffset": 7856
+                    }
                 }
             },
             {
@@ -869,7 +1303,14 @@
                     "endOffset": 3973
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 158,
+                        "startColumn": 4,
+                        "startOffset": 7733,
+                        "endColumn": 63,
+                        "endOffset": 7792
+                    }
                 }
             },
             {
@@ -881,7 +1322,14 @@
                     "endOffset": 4036
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 265,
+                        "startColumn": 4,
+                        "startOffset": 14062,
+                        "endColumn": 62,
+                        "endOffset": 14120
+                    }
                 }
             },
             {
@@ -893,7 +1341,14 @@
                     "endOffset": 4083
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 133,
+                        "startColumn": 4,
+                        "startOffset": 6243,
+                        "endColumn": 46,
+                        "endOffset": 6285
+                    }
                 }
             },
             {
@@ -924,7 +1379,14 @@
                     "endOffset": 4185
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 89,
+                        "startColumn": 4,
+                        "startOffset": 4133,
+                        "endColumn": 39,
+                        "endOffset": 4168
+                    }
                 }
             },
             {
@@ -936,7 +1398,14 @@
                     "endOffset": 4235
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 98,
+                        "startColumn": 4,
+                        "startOffset": 4596,
+                        "endColumn": 49,
+                        "endOffset": 4641
+                    }
                 }
             },
             {
@@ -948,7 +1417,14 @@
                     "endOffset": 4298
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 97,
+                        "startColumn": 4,
+                        "startOffset": 4533,
+                        "endColumn": 62,
+                        "endOffset": 4591
+                    }
                 }
             },
             {
@@ -960,7 +1436,14 @@
                     "endOffset": 4361
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 222,
+                        "startColumn": 4,
+                        "startOffset": 11581,
+                        "endColumn": 62,
+                        "endOffset": 11639
+                    }
                 }
             },
             {
@@ -972,7 +1455,14 @@
                     "endOffset": 4422
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 203,
+                        "startColumn": 4,
+                        "startOffset": 10416,
+                        "endColumn": 60,
+                        "endOffset": 10472
+                    }
                 }
             },
             {
@@ -984,7 +1474,14 @@
                     "endOffset": 4481
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 124,
+                        "startColumn": 4,
+                        "startOffset": 5782,
+                        "endColumn": 58,
+                        "endOffset": 5836
+                    }
                 }
             },
             {
@@ -996,7 +1493,14 @@
                     "endOffset": 4544
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 155,
+                        "startColumn": 4,
+                        "startOffset": 7539,
+                        "endColumn": 62,
+                        "endOffset": 7597
+                    }
                 }
             },
             {
@@ -1008,7 +1512,14 @@
                     "endOffset": 4584
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 140,
+                        "startColumn": 4,
+                        "startOffset": 6640,
+                        "endColumn": 39,
+                        "endOffset": 6675
+                    }
                 }
             },
             {
@@ -1020,7 +1531,14 @@
                     "endOffset": 4641
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 227,
+                        "startColumn": 4,
+                        "startOffset": 11891,
+                        "endColumn": 56,
+                        "endOffset": 11943
+                    }
                 }
             },
             {
@@ -1032,7 +1550,14 @@
                     "endOffset": 4695
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 231,
+                        "startColumn": 4,
+                        "startOffset": 12138,
+                        "endColumn": 53,
+                        "endOffset": 12187
+                    }
                 }
             },
             {
@@ -1044,7 +1569,14 @@
                     "endOffset": 4752
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 216,
+                        "startColumn": 4,
+                        "startOffset": 11234,
+                        "endColumn": 56,
+                        "endOffset": 11286
+                    }
                 }
             },
             {
@@ -1056,7 +1588,14 @@
                     "endOffset": 4810
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 137,
+                        "startColumn": 4,
+                        "startOffset": 6487,
+                        "endColumn": 57,
+                        "endOffset": 6540
+                    }
                 }
             },
             {
@@ -1068,7 +1607,14 @@
                     "endOffset": 4874
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 132,
+                        "startColumn": 4,
+                        "startOffset": 6179,
+                        "endColumn": 63,
+                        "endOffset": 6238
+                    }
                 }
             },
             {
@@ -1080,7 +1626,14 @@
                     "endOffset": 4941
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 252,
+                        "startColumn": 4,
+                        "startOffset": 13420,
+                        "endColumn": 66,
+                        "endOffset": 13482
+                    }
                 }
             },
             {
@@ -1092,7 +1645,14 @@
                     "endOffset": 4990
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 195,
+                        "startColumn": 4,
+                        "startOffset": 9947,
+                        "endColumn": 48,
+                        "endOffset": 9991
+                    }
                 }
             },
             {
@@ -1104,7 +1664,14 @@
                     "endOffset": 5043
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 103,
+                        "startColumn": 4,
+                        "startOffset": 4853,
+                        "endColumn": 52,
+                        "endOffset": 4901
+                    }
                 }
             },
             {
@@ -1116,7 +1683,14 @@
                     "endOffset": 5107
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 261,
+                        "startColumn": 4,
+                        "startOffset": 13903,
+                        "endColumn": 63,
+                        "endOffset": 13962
+                    }
                 }
             },
             {
@@ -1128,7 +1702,14 @@
                     "endOffset": 5181
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 154,
+                        "startColumn": 4,
+                        "startOffset": 7465,
+                        "endColumn": 73,
+                        "endOffset": 7534
+                    }
                 }
             },
             {
@@ -1140,7 +1721,14 @@
                     "endOffset": 5240
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 101,
+                        "startColumn": 4,
+                        "startOffset": 4747,
+                        "endColumn": 58,
+                        "endOffset": 4801
+                    }
                 }
             },
             {
@@ -1152,7 +1740,14 @@
                     "endOffset": 5303
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 267,
+                        "startColumn": 4,
+                        "startOffset": 14181,
+                        "endColumn": 62,
+                        "endOffset": 14239
+                    }
                 }
             },
             {
@@ -1164,7 +1759,14 @@
                     "endOffset": 5368
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 188,
+                        "startColumn": 4,
+                        "startOffset": 9522,
+                        "endColumn": 64,
+                        "endOffset": 9582
+                    }
                 }
             },
             {
@@ -1176,7 +1778,14 @@
                     "endOffset": 5440
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 152,
+                        "startColumn": 4,
+                        "startOffset": 7327,
+                        "endColumn": 71,
+                        "endOffset": 7394
+                    }
                 }
             },
             {
@@ -1188,7 +1797,14 @@
                     "endOffset": 5492
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 91,
+                        "startColumn": 4,
+                        "startOffset": 4222,
+                        "endColumn": 51,
+                        "endOffset": 4269
+                    }
                 }
             },
             {
@@ -1200,7 +1816,14 @@
                     "endOffset": 5548
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 246,
+                        "startColumn": 4,
+                        "startOffset": 13071,
+                        "endColumn": 55,
+                        "endOffset": 13122
+                    }
                 }
             },
             {
@@ -1212,7 +1835,14 @@
                     "endOffset": 5606
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 142,
+                        "startColumn": 4,
+                        "startOffset": 6745,
+                        "endColumn": 57,
+                        "endOffset": 6798
+                    }
                 }
             },
             {
@@ -1224,7 +1854,14 @@
                     "endOffset": 5668
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 143,
+                        "startColumn": 4,
+                        "startOffset": 6803,
+                        "endColumn": 61,
+                        "endOffset": 6860
+                    }
                 }
             },
             {
@@ -1236,7 +1873,14 @@
                     "endOffset": 5743
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 245,
+                        "startColumn": 4,
+                        "startOffset": 12996,
+                        "endColumn": 74,
+                        "endOffset": 13066
+                    }
                 }
             },
             {
@@ -1248,7 +1892,14 @@
                     "endOffset": 5808
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 144,
+                        "startColumn": 4,
+                        "startOffset": 6865,
+                        "endColumn": 64,
+                        "endOffset": 6925
+                    }
                 }
             },
             {
@@ -1260,7 +1911,14 @@
                     "endOffset": 5877
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 247,
+                        "startColumn": 4,
+                        "startOffset": 13127,
+                        "endColumn": 68,
+                        "endOffset": 13191
+                    }
                 }
             },
             {
@@ -1272,7 +1930,14 @@
                     "endOffset": 5942
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 141,
+                        "startColumn": 4,
+                        "startOffset": 6680,
+                        "endColumn": 64,
+                        "endOffset": 6740
+                    }
                 }
             },
             {
@@ -1284,7 +1949,14 @@
                     "endOffset": 6015
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 244,
+                        "startColumn": 4,
+                        "startOffset": 12923,
+                        "endColumn": 72,
+                        "endOffset": 12991
+                    }
                 }
             },
             {
@@ -1296,7 +1968,14 @@
                     "endOffset": 6088
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 242,
+                        "startColumn": 4,
+                        "startOffset": 12792,
+                        "endColumn": 72,
+                        "endOffset": 12860
+                    }
                 }
             },
             {
@@ -1308,7 +1987,14 @@
                     "endOffset": 6155
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 156,
+                        "startColumn": 4,
+                        "startOffset": 7602,
+                        "endColumn": 66,
+                        "endOffset": 7664
+                    }
                 }
             },
             {
@@ -1320,7 +2006,14 @@
                     "endOffset": 6207
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 220,
+                        "startColumn": 4,
+                        "startOffset": 11479,
+                        "endColumn": 51,
+                        "endOffset": 11526
+                    }
                 }
             },
             {
@@ -1332,7 +2025,14 @@
                     "endOffset": 6278
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 129,
+                        "startColumn": 4,
+                        "startOffset": 6003,
+                        "endColumn": 70,
+                        "endOffset": 6069
+                    }
                 }
             },
             {
@@ -1344,7 +2044,14 @@
                     "endOffset": 6328
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 107,
+                        "startColumn": 4,
+                        "startOffset": 5051,
+                        "endColumn": 49,
+                        "endOffset": 5096
+                    }
                 }
             },
             {
@@ -1356,7 +2063,14 @@
                     "endOffset": 6393
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 224,
+                        "startColumn": 4,
+                        "startOffset": 11715,
+                        "endColumn": 64,
+                        "endOffset": 11775
+                    }
                 }
             },
             {
@@ -1368,7 +2082,14 @@
                     "endOffset": 6442
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 90,
+                        "startColumn": 4,
+                        "startOffset": 4173,
+                        "endColumn": 48,
+                        "endOffset": 4217
+                    }
                 }
             },
             {
@@ -1380,7 +2101,14 @@
                     "endOffset": 6497
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 229,
+                        "startColumn": 4,
+                        "startOffset": 12006,
+                        "endColumn": 54,
+                        "endOffset": 12056
+                    }
                 }
             },
             {
@@ -1392,7 +2120,14 @@
                     "endOffset": 6560
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 201,
+                        "startColumn": 4,
+                        "startOffset": 10287,
+                        "endColumn": 62,
+                        "endOffset": 10345
+                    }
                 }
             },
             {
@@ -1423,7 +2158,14 @@
                     "endOffset": 6684
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 237,
+                        "startColumn": 4,
+                        "startOffset": 12481,
+                        "endColumn": 57,
+                        "endOffset": 12534
+                    }
                 }
             },
             {
@@ -1435,7 +2177,14 @@
                     "endOffset": 6731
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 200,
+                        "startColumn": 4,
+                        "startOffset": 10240,
+                        "endColumn": 46,
+                        "endOffset": 10282
+                    }
                 }
             },
             {
@@ -1447,7 +2196,14 @@
                     "endOffset": 6783
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 96,
+                        "startColumn": 4,
+                        "startOffset": 4481,
+                        "endColumn": 51,
+                        "endOffset": 4528
+                    }
                 }
             },
             {
@@ -1459,7 +2215,14 @@
                     "endOffset": 6849
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 153,
+                        "startColumn": 4,
+                        "startOffset": 7399,
+                        "endColumn": 65,
+                        "endOffset": 7460
+                    }
                 }
             },
             {
@@ -1471,7 +2234,14 @@
                     "endOffset": 6899
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 221,
+                        "startColumn": 4,
+                        "startOffset": 11531,
+                        "endColumn": 49,
+                        "endOffset": 11576
+                    }
                 }
             },
             {
@@ -1483,7 +2253,14 @@
                     "endOffset": 6943
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 83,
+                        "startColumn": 4,
+                        "startOffset": 3871,
+                        "endColumn": 43,
+                        "endOffset": 3910
+                    }
                 }
             },
             {
@@ -1495,7 +2272,14 @@
                     "endOffset": 6998
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 93,
+                        "startColumn": 4,
+                        "startOffset": 4330,
+                        "endColumn": 54,
+                        "endOffset": 4380
+                    }
                 }
             },
             {
@@ -1507,7 +2291,14 @@
                     "endOffset": 7054
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 92,
+                        "startColumn": 4,
+                        "startOffset": 4274,
+                        "endColumn": 55,
+                        "endOffset": 4325
+                    }
                 }
             },
             {
@@ -1519,7 +2310,14 @@
                     "endOffset": 7099
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 75,
+                        "startColumn": 4,
+                        "startOffset": 3431,
+                        "endColumn": 44,
+                        "endOffset": 3471
+                    }
                 }
             },
             {
@@ -1531,7 +2329,14 @@
                     "endOffset": 7136
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 121,
+                        "startColumn": 4,
+                        "startOffset": 5656,
+                        "endColumn": 36,
+                        "endOffset": 5688
+                    }
                 }
             },
             {
@@ -1543,7 +2348,14 @@
                     "endOffset": 7174
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 118,
+                        "startColumn": 4,
+                        "startOffset": 5522,
+                        "endColumn": 37,
+                        "endOffset": 5555
+                    }
                 }
             },
             {
@@ -1574,7 +2386,14 @@
                     "endOffset": 7279
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 174,
+                        "startColumn": 4,
+                        "startOffset": 8636,
+                        "endColumn": 62,
+                        "endOffset": 8694
+                    }
                 }
             },
             {
@@ -1586,7 +2405,14 @@
                     "endOffset": 7322
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 586,
+                        "endColumn": 42,
+                        "endOffset": 624
+                    }
                 }
             },
             {
@@ -1598,7 +2424,14 @@
                     "endOffset": 7369
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 495,
+                        "endColumn": 46,
+                        "endOffset": 537
+                    }
                 }
             },
             {
@@ -1610,7 +2443,14 @@
                     "endOffset": 7415
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 402,
+                        "endColumn": 45,
+                        "endOffset": 443
+                    }
                 }
             },
             {
@@ -1622,7 +2462,14 @@
                     "endOffset": 7459
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 358,
+                        "endColumn": 43,
+                        "endOffset": 397
+                    }
                 }
             },
             {
@@ -1634,7 +2481,14 @@
                     "endOffset": 7506
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 448,
+                        "endColumn": 46,
+                        "endOffset": 490
+                    }
                 }
             },
             {
@@ -1646,7 +2500,14 @@
                     "endOffset": 7550
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 542,
+                        "endColumn": 43,
+                        "endOffset": 581
+                    }
                 }
             },
             {
@@ -1658,7 +2519,14 @@
                     "endOffset": 7601
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 680,
+                        "endColumn": 50,
+                        "endOffset": 726
+                    }
                 }
             },
             {
@@ -1670,7 +2538,14 @@
                     "endOffset": 7652
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 629,
+                        "endColumn": 50,
+                        "endOffset": 675
+                    }
                 }
             },
             {
@@ -1682,7 +2557,14 @@
                     "endOffset": 7688
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 192,
+                        "endColumn": 35,
+                        "endOffset": 223
+                    }
                 }
             },
             {
@@ -1694,7 +2576,14 @@
                     "endOffset": 7736
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 138,
+                        "startColumn": 4,
+                        "startOffset": 6545,
+                        "endColumn": 47,
+                        "endOffset": 6588
+                    }
                 }
             },
             {
@@ -1706,7 +2595,14 @@
                     "endOffset": 7784
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 171,
+                        "startColumn": 4,
+                        "startOffset": 8465,
+                        "endColumn": 47,
+                        "endOffset": 8508
+                    }
                 }
             },
             {
@@ -1718,7 +2614,14 @@
                     "endOffset": 7827
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 85,
+                        "startColumn": 4,
+                        "startOffset": 3953,
+                        "endColumn": 42,
+                        "endOffset": 3991
+                    }
                 }
             },
             {
@@ -1730,7 +2633,14 @@
                     "endOffset": 7871
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 99,
+                        "startColumn": 4,
+                        "startOffset": 4646,
+                        "endColumn": 43,
+                        "endOffset": 4685
+                    }
                 }
             },
             {
@@ -1742,7 +2652,14 @@
                     "endOffset": 7917
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 73,
+                        "startColumn": 4,
+                        "startOffset": 3346,
+                        "endColumn": 45,
+                        "endOffset": 3387
+                    }
                 }
             },
             {
@@ -1754,7 +2671,14 @@
                     "endOffset": 7959
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 4,
+                        "startOffset": 2373,
+                        "endColumn": 41,
+                        "endOffset": 2410
+                    }
                 }
             },
             {
@@ -1766,7 +2690,14 @@
                     "endOffset": 8004
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 2240,
+                        "endColumn": 44,
+                        "endOffset": 2280
+                    }
                 }
             },
             {
@@ -1778,7 +2709,14 @@
                     "endOffset": 8051
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 1560,
+                        "endColumn": 46,
+                        "endOffset": 1602
+                    }
                 }
             },
             {
@@ -1790,7 +2728,14 @@
                     "endOffset": 8102
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 264,
+                        "endColumn": 50,
+                        "endOffset": 310
+                    }
                 }
             },
             {
@@ -1802,7 +2747,14 @@
                     "endOffset": 8145
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 4,
+                        "startOffset": 2285,
+                        "endColumn": 42,
+                        "endOffset": 2323
+                    }
                 }
             },
             {
@@ -1814,7 +2766,14 @@
                     "endOffset": 8190
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 4,
+                        "startOffset": 2328,
+                        "endColumn": 44,
+                        "endOffset": 2368
+                    }
                 }
             },
             {
@@ -1826,7 +2785,14 @@
                     "endOffset": 8233
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 315,
+                        "endColumn": 42,
+                        "endOffset": 353
+                    }
                 }
             },
             {
@@ -1838,7 +2804,14 @@
                     "endOffset": 8285
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 1607,
+                        "endColumn": 51,
+                        "endOffset": 1654
+                    }
                 }
             },
             {
@@ -1850,7 +2823,14 @@
                     "endOffset": 8332
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 139,
+                        "startColumn": 4,
+                        "startOffset": 6593,
+                        "endColumn": 46,
+                        "endOffset": 6635
+                    }
                 }
             },
             {
@@ -1862,7 +2842,14 @@
                     "endOffset": 8409
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 211,
+                        "startColumn": 4,
+                        "startOffset": 10895,
+                        "endColumn": 76,
+                        "endOffset": 10967
+                    }
                 }
             },
             {
@@ -1874,7 +2861,14 @@
                     "endOffset": 8447
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 1693,
+                        "endColumn": 37,
+                        "endOffset": 1726
+                    }
                 }
             },
             {
@@ -1905,7 +2899,14 @@
                     "endOffset": 8558
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 150,
+                        "startColumn": 4,
+                        "startOffset": 7220,
+                        "endColumn": 52,
+                        "endOffset": 7268
+                    }
                 }
             },
             {
@@ -1917,7 +2918,14 @@
                     "endOffset": 8641
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 177,
+                        "startColumn": 4,
+                        "startOffset": 8832,
+                        "endColumn": 82,
+                        "endOffset": 8910
+                    }
                 }
             },
             {
@@ -1929,7 +2937,14 @@
                     "endOffset": 8683
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 82,
+                        "startColumn": 4,
+                        "startOffset": 3829,
+                        "endColumn": 41,
+                        "endOffset": 3866
+                    }
                 }
             },
             {
@@ -1941,7 +2956,14 @@
                     "endOffset": 8749
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 279,
+                        "startColumn": 4,
+                        "startOffset": 14691,
+                        "endColumn": 66,
+                        "endOffset": 14753
+                    }
                 }
             },
             {
@@ -1953,7 +2975,14 @@
                     "endOffset": 8790
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 71,
+                        "startColumn": 4,
+                        "startOffset": 3255,
+                        "endColumn": 40,
+                        "endOffset": 3291
+                    }
                 }
             },
             {
@@ -1965,7 +2994,14 @@
                     "endOffset": 8852
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 173,
+                        "startColumn": 4,
+                        "startOffset": 8574,
+                        "endColumn": 61,
+                        "endOffset": 8631
+                    }
                 }
             },
             {
@@ -1977,7 +3013,14 @@
                     "endOffset": 8910
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 1816,
+                        "endColumn": 57,
+                        "endOffset": 1869
+                    }
                 }
             },
             {
@@ -1989,7 +3032,14 @@
                     "endOffset": 8957
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 1769,
+                        "endColumn": 46,
+                        "endOffset": 1811
+                    }
                 }
             },
             {
@@ -2001,7 +3051,14 @@
                     "endOffset": 9017
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 4,
+                        "startOffset": 2619,
+                        "endColumn": 59,
+                        "endOffset": 2674
+                    }
                 }
             },
             {
@@ -2013,7 +3070,14 @@
                     "endOffset": 9069
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1310,
+                        "endColumn": 51,
+                        "endOffset": 1357
+                    }
                 }
             },
             {
@@ -2025,7 +3089,14 @@
                     "endOffset": 9133
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 192,
+                        "startColumn": 4,
+                        "startOffset": 9749,
+                        "endColumn": 63,
+                        "endOffset": 9808
+                    }
                 }
             },
             {
@@ -2037,7 +3108,14 @@
                     "endOffset": 9182
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 113,
+                        "startColumn": 4,
+                        "startOffset": 5306,
+                        "endColumn": 48,
+                        "endOffset": 5350
+                    }
                 }
             },
             {
@@ -2049,7 +3127,14 @@
                     "endOffset": 9240
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 4,
+                        "startOffset": 2950,
+                        "endColumn": 57,
+                        "endOffset": 3003
+                    }
                 }
             },
             {
@@ -2061,7 +3146,14 @@
                     "endOffset": 9301
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 1362,
+                        "endColumn": 60,
+                        "endOffset": 1418
+                    }
                 }
             },
             {
@@ -2073,7 +3165,14 @@
                     "endOffset": 9337
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 1485,
+                        "endColumn": 35,
+                        "endOffset": 1516
+                    }
                 }
             },
             {
@@ -2085,7 +3184,14 @@
                     "endOffset": 9383
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1096,
+                        "endColumn": 45,
+                        "endOffset": 1137
+                    }
                 }
             },
             {
@@ -2097,7 +3203,14 @@
                     "endOffset": 9421
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1234,
+                        "endColumn": 37,
+                        "endOffset": 1267
+                    }
                 }
             },
             {
@@ -2109,7 +3222,14 @@
                     "endOffset": 9474
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1043,
+                        "endColumn": 52,
+                        "endOffset": 1091
+                    }
                 }
             },
             {
@@ -2121,7 +3241,14 @@
                     "endOffset": 9539
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 978,
+                        "endColumn": 64,
+                        "endOffset": 1038
+                    }
                 }
             },
             {
@@ -2133,7 +3260,14 @@
                     "endOffset": 9587
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 930,
+                        "endColumn": 47,
+                        "endOffset": 973
+                    }
                 }
             },
             {
@@ -2145,7 +3279,14 @@
                     "endOffset": 9633
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1188,
+                        "endColumn": 45,
+                        "endOffset": 1229
+                    }
                 }
             },
             {
@@ -2157,7 +3298,14 @@
                     "endOffset": 9679
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1142,
+                        "endColumn": 45,
+                        "endOffset": 1183
+                    }
                 }
             },
             {
@@ -2169,7 +3317,14 @@
                     "endOffset": 9724
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 163,
+                        "startColumn": 4,
+                        "startOffset": 8035,
+                        "endColumn": 44,
+                        "endOffset": 8075
+                    }
                 }
             },
             {
@@ -2181,7 +3336,14 @@
                     "endOffset": 9764
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 86,
+                        "startColumn": 4,
+                        "startOffset": 3996,
+                        "endColumn": 39,
+                        "endOffset": 4031
+                    }
                 }
             },
             {
@@ -2193,7 +3355,14 @@
                     "endOffset": 9811
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 145,
+                        "startColumn": 4,
+                        "startOffset": 6930,
+                        "endColumn": 46,
+                        "endOffset": 6972
+                    }
                 }
             },
             {
@@ -2205,7 +3374,14 @@
                     "endOffset": 9858
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 257,
+                        "startColumn": 4,
+                        "startOffset": 13688,
+                        "endColumn": 46,
+                        "endOffset": 13730
+                    }
                 }
             },
             {
@@ -2217,7 +3393,14 @@
                     "endOffset": 9905
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 102,
+                        "startColumn": 4,
+                        "startOffset": 4806,
+                        "endColumn": 46,
+                        "endOffset": 4848
+                    }
                 }
             },
             {
@@ -2229,7 +3412,14 @@
                     "endOffset": 9967
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 4,
+                        "startOffset": 2846,
+                        "endColumn": 61,
+                        "endOffset": 2903
+                    }
                 }
             },
             {
@@ -2241,7 +3431,14 @@
                     "endOffset": 10008
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 303,
+                        "startColumn": 4,
+                        "startOffset": 15944,
+                        "endColumn": 40,
+                        "endOffset": 15980
+                    }
                 }
             },
             {
@@ -2253,7 +3450,14 @@
                     "endOffset": 10061
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 298,
+                        "startColumn": 4,
+                        "startOffset": 15702,
+                        "endColumn": 52,
+                        "endOffset": 15750
+                    }
                 }
             },
             {
@@ -2265,7 +3469,14 @@
                     "endOffset": 10112
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 299,
+                        "startColumn": 4,
+                        "startOffset": 15755,
+                        "endColumn": 50,
+                        "endOffset": 15801
+                    }
                 }
             },
             {
@@ -2277,7 +3488,14 @@
                     "endOffset": 10149
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 302,
+                        "startColumn": 4,
+                        "startOffset": 15907,
+                        "endColumn": 36,
+                        "endOffset": 15939
+                    }
                 }
             },
             {
@@ -2289,7 +3507,14 @@
                     "endOffset": 10204
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 297,
+                        "startColumn": 4,
+                        "startOffset": 15647,
+                        "endColumn": 54,
+                        "endOffset": 15697
+                    }
                 }
             },
             {
@@ -2301,7 +3526,14 @@
                     "endOffset": 10252
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 305,
+                        "startColumn": 4,
+                        "startOffset": 16043,
+                        "endColumn": 47,
+                        "endOffset": 16086
+                    }
                 }
             },
             {
@@ -2313,7 +3545,14 @@
                     "endOffset": 10301
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 306,
+                        "startColumn": 4,
+                        "startOffset": 16091,
+                        "endColumn": 48,
+                        "endOffset": 16135
+                    }
                 }
             },
             {
@@ -2325,7 +3564,14 @@
                     "endOffset": 10347
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 307,
+                        "startColumn": 4,
+                        "startOffset": 16140,
+                        "endColumn": 45,
+                        "endOffset": 16181
+                    }
                 }
             },
             {
@@ -2337,7 +3583,14 @@
                     "endOffset": 10397
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 114,
+                        "startColumn": 4,
+                        "startOffset": 5355,
+                        "endColumn": 49,
+                        "endOffset": 5400
+                    }
                 }
             },
             {
@@ -2349,7 +3602,14 @@
                     "endOffset": 10448
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 65,
+                        "startColumn": 4,
+                        "startOffset": 3008,
+                        "endColumn": 50,
+                        "endOffset": 3054
+                    }
                 }
             },
             {
@@ -2361,7 +3621,14 @@
                     "endOffset": 10516
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 287,
+                        "startColumn": 4,
+                        "startOffset": 15109,
+                        "endColumn": 67,
+                        "endOffset": 15172
+                    }
                 }
             },
             {
@@ -2373,7 +3640,14 @@
                     "endOffset": 10581
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 288,
+                        "startColumn": 4,
+                        "startOffset": 15177,
+                        "endColumn": 64,
+                        "endOffset": 15237
+                    }
                 }
             },
             {
@@ -2385,7 +3659,14 @@
                     "endOffset": 10623
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 4,
+                        "startOffset": 2908,
+                        "endColumn": 41,
+                        "endOffset": 2945
+                    }
                 }
             },
             {
@@ -2397,7 +3678,14 @@
                     "endOffset": 10682
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 4,
+                        "startOffset": 2787,
+                        "endColumn": 58,
+                        "endOffset": 2841
+                    }
                 }
             },
             {
@@ -2409,7 +3697,14 @@
                     "endOffset": 10726
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 136,
+                        "startColumn": 4,
+                        "startOffset": 6443,
+                        "endColumn": 43,
+                        "endOffset": 6482
+                    }
                 }
             },
             {
@@ -2421,7 +3716,14 @@
                     "endOffset": 10792
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 290,
+                        "startColumn": 4,
+                        "startOffset": 15300,
+                        "endColumn": 65,
+                        "endOffset": 15361
+                    }
                 }
             },
             {
@@ -2433,7 +3735,14 @@
                     "endOffset": 10859
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 179,
+                        "startColumn": 4,
+                        "startOffset": 8976,
+                        "endColumn": 66,
+                        "endOffset": 9038
+                    }
                 }
             },
             {
@@ -2445,7 +3754,14 @@
                     "endOffset": 10897
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 4,
+                        "startOffset": 2156,
+                        "endColumn": 37,
+                        "endOffset": 2189
+                    }
                 }
             },
             {
@@ -2457,7 +3773,14 @@
                     "endOffset": 10936
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 1521,
+                        "endColumn": 38,
+                        "endOffset": 1555
+                    }
                 }
             },
             {
@@ -2469,7 +3792,14 @@
                     "endOffset": 11004
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 169,
+                        "startColumn": 4,
+                        "startOffset": 8359,
+                        "endColumn": 67,
+                        "endOffset": 8422
+                    }
                 }
             },
             {
@@ -2481,7 +3811,14 @@
                     "endOffset": 11056
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 278,
+                        "startColumn": 4,
+                        "startOffset": 14639,
+                        "endColumn": 51,
+                        "endOffset": 14686
+                    }
                 }
             },
             {
@@ -2493,7 +3830,14 @@
                     "endOffset": 11098
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 81,
+                        "startColumn": 4,
+                        "startOffset": 3787,
+                        "endColumn": 41,
+                        "endOffset": 3824
+                    }
                 }
             },
             {
@@ -2505,7 +3849,14 @@
                     "endOffset": 11139
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 280,
+                        "startColumn": 4,
+                        "startOffset": 14758,
+                        "endColumn": 40,
+                        "endOffset": 14794
+                    }
                 }
             },
             {
@@ -2517,7 +3868,14 @@
                     "endOffset": 11194
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 185,
+                        "startColumn": 4,
+                        "startOffset": 9342,
+                        "endColumn": 54,
+                        "endOffset": 9392
+                    }
                 }
             },
             {
@@ -2529,7 +3887,14 @@
                     "endOffset": 11238
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 94,
+                        "startColumn": 4,
+                        "startOffset": 4385,
+                        "endColumn": 43,
+                        "endOffset": 4424
+                    }
                 }
             },
             {
@@ -2541,7 +3906,14 @@
                     "endOffset": 11284
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 281,
+                        "startColumn": 4,
+                        "startOffset": 14799,
+                        "endColumn": 45,
+                        "endOffset": 14840
+                    }
                 }
             },
             {
@@ -2553,7 +3925,14 @@
                     "endOffset": 11336
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 285,
+                        "startColumn": 4,
+                        "startOffset": 15004,
+                        "endColumn": 51,
+                        "endOffset": 15051
+                    }
                 }
             },
             {
@@ -2565,7 +3944,14 @@
                     "endOffset": 11400
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 186,
+                        "startColumn": 4,
+                        "startOffset": 9397,
+                        "endColumn": 63,
+                        "endOffset": 9456
+                    }
                 }
             },
             {
@@ -2577,7 +3963,14 @@
                     "endOffset": 11453
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 286,
+                        "startColumn": 4,
+                        "startOffset": 15056,
+                        "endColumn": 52,
+                        "endOffset": 15104
+                    }
                 }
             },
             {
@@ -2589,7 +3982,14 @@
                     "endOffset": 11492
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 117,
+                        "startColumn": 4,
+                        "startOffset": 5483,
+                        "endColumn": 38,
+                        "endOffset": 5517
+                    }
                 }
             },
             {
@@ -2601,7 +4001,14 @@
                     "endOffset": 11538
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 292,
+                        "startColumn": 4,
+                        "startOffset": 15411,
+                        "endColumn": 45,
+                        "endOffset": 15452
+                    }
                 }
             },
             {
@@ -2613,7 +4020,14 @@
                     "endOffset": 11606
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 240,
+                        "startColumn": 4,
+                        "startOffset": 12677,
+                        "endColumn": 67,
+                        "endOffset": 12740
+                    }
                 }
             },
             {
@@ -2625,7 +4039,14 @@
                     "endOffset": 11664
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 210,
+                        "startColumn": 4,
+                        "startOffset": 10837,
+                        "endColumn": 57,
+                        "endOffset": 10890
+                    }
                 }
             },
             {
@@ -2637,7 +4058,14 @@
                     "endOffset": 11717
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 293,
+                        "startColumn": 4,
+                        "startOffset": 15457,
+                        "endColumn": 52,
+                        "endOffset": 15505
+                    }
                 }
             },
             {
@@ -2649,7 +4077,14 @@
                     "endOffset": 11771
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 283,
+                        "startColumn": 4,
+                        "startOffset": 14897,
+                        "endColumn": 53,
+                        "endOffset": 14946
+                    }
                 }
             },
             {
@@ -2661,7 +4096,14 @@
                     "endOffset": 11829
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 125,
+                        "startColumn": 4,
+                        "startOffset": 5841,
+                        "endColumn": 57,
+                        "endOffset": 5894
+                    }
                 }
             },
             {
@@ -2673,7 +4115,14 @@
                     "endOffset": 11893
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 175,
+                        "startColumn": 4,
+                        "startOffset": 8699,
+                        "endColumn": 63,
+                        "endOffset": 8758
+                    }
                 }
             },
             {
@@ -2685,7 +4134,14 @@
                     "endOffset": 11954
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 172,
+                        "startColumn": 4,
+                        "startOffset": 8513,
+                        "endColumn": 60,
+                        "endOffset": 8569
+                    }
                 }
             },
             {
@@ -2697,7 +4153,14 @@
                     "endOffset": 12011
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 206,
+                        "startColumn": 4,
+                        "startOffset": 10603,
+                        "endColumn": 56,
+                        "endOffset": 10655
+                    }
                 }
             },
             {
@@ -2709,7 +4172,14 @@
                     "endOffset": 12061
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 1926,
+                        "endColumn": 49,
+                        "endOffset": 1971
+                    }
                 }
             },
             {
@@ -2721,7 +4191,14 @@
                     "endOffset": 12112
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 2025,
+                        "endColumn": 50,
+                        "endOffset": 2071
+                    }
                 }
             },
             {
@@ -2733,7 +4210,14 @@
                     "endOffset": 12164
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 1874,
+                        "endColumn": 51,
+                        "endOffset": 1921
+                    }
                 }
             },
             {
@@ -2745,7 +4229,14 @@
                     "endOffset": 12201
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 109,
+                        "startColumn": 4,
+                        "startOffset": 5147,
+                        "endColumn": 36,
+                        "endOffset": 5179
+                    }
                 }
             },
             {
@@ -2757,7 +4248,14 @@
                     "endOffset": 12266
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 207,
+                        "startColumn": 4,
+                        "startOffset": 10660,
+                        "endColumn": 64,
+                        "endOffset": 10720
+                    }
                 }
             },
             {
@@ -2769,7 +4267,14 @@
                     "endOffset": 12306
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 4,
+                        "startOffset": 2679,
+                        "endColumn": 39,
+                        "endOffset": 2714
+                    }
                 }
             },
             {
@@ -2781,7 +4286,14 @@
                     "endOffset": 12374
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 60,
+                        "startColumn": 4,
+                        "startOffset": 2719,
+                        "endColumn": 67,
+                        "endOffset": 2782
+                    }
                 }
             },
             {
@@ -2793,7 +4305,14 @@
                     "endOffset": 12426
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 282,
+                        "startColumn": 4,
+                        "startOffset": 14845,
+                        "endColumn": 51,
+                        "endOffset": 14892
+                    }
                 }
             },
             {
@@ -2805,7 +4324,14 @@
                     "endOffset": 12482
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 772,
+                        "endColumn": 55,
+                        "endOffset": 823
+                    }
                 }
             },
             {
@@ -3577,7 +5103,14 @@
                     "endOffset": 14256
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 115,
+                        "startColumn": 4,
+                        "startOffset": 5405,
+                        "endColumn": 35,
+                        "endOffset": 5436
+                    }
                 }
             },
             {
@@ -3610,7 +5143,14 @@
                     "endOffset": 14429
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 228,
+                        "startColumn": 4,
+                        "startOffset": 11948,
+                        "endColumn": 57,
+                        "endOffset": 12001
+                    }
                 }
             },
             {
@@ -3622,7 +5162,14 @@
                     "endOffset": 14487
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 4,
+                        "startOffset": 2459,
+                        "endColumn": 57,
+                        "endOffset": 2512
+                    }
                 }
             },
             {
@@ -3634,7 +5181,14 @@
                     "endOffset": 14549
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 1423,
+                        "endColumn": 61,
+                        "endOffset": 1480
+                    }
                 }
             },
             {
@@ -3646,7 +5200,14 @@
                     "endOffset": 14590
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 120,
+                        "startColumn": 4,
+                        "startOffset": 5615,
+                        "endColumn": 40,
+                        "endOffset": 5651
+                    }
                 }
             },
             {
@@ -3658,7 +5219,14 @@
                     "endOffset": 14636
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 68,
+                        "startColumn": 4,
+                        "startOffset": 3135,
+                        "endColumn": 45,
+                        "endOffset": 3176
+                    }
                 }
             },
             {
@@ -3670,7 +5238,14 @@
                     "endOffset": 14676
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 296,
+                        "startColumn": 4,
+                        "startOffset": 15607,
+                        "endColumn": 39,
+                        "endOffset": 15642
+                    }
                 }
             },
             {
@@ -3682,7 +5257,14 @@
                     "endOffset": 14789
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 80,
+                        "startColumn": 4,
+                        "startOffset": 3674,
+                        "endColumn": 112,
+                        "endOffset": 3782
+                    }
                 }
             },
             {
@@ -3694,7 +5276,14 @@
                     "endOffset": 14843
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 277,
+                        "startColumn": 4,
+                        "startOffset": 14584,
+                        "endColumn": 54,
+                        "endOffset": 14634
+                    }
                 }
             },
             {
@@ -3706,7 +5295,14 @@
                     "endOffset": 14893
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 128,
+                        "startColumn": 4,
+                        "startOffset": 5953,
+                        "endColumn": 49,
+                        "endOffset": 5998
+                    }
                 }
             },
             {
@@ -3718,7 +5314,14 @@
                     "endOffset": 14958
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 148,
+                        "startColumn": 4,
+                        "startOffset": 7092,
+                        "endColumn": 64,
+                        "endOffset": 7152
+                    }
                 }
             },
             {
@@ -3730,7 +5333,14 @@
                     "endOffset": 15011
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 190,
+                        "startColumn": 4,
+                        "startOffset": 9648,
+                        "endColumn": 52,
+                        "endOffset": 9696
+                    }
                 }
             },
             {
@@ -3742,7 +5352,14 @@
                     "endOffset": 15057
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 123,
+                        "startColumn": 4,
+                        "startOffset": 5736,
+                        "endColumn": 45,
+                        "endOffset": 5777
+                    }
                 }
             },
             {
@@ -3754,7 +5371,14 @@
                     "endOffset": 15098
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 67,
+                        "startColumn": 4,
+                        "startOffset": 3094,
+                        "endColumn": 40,
+                        "endOffset": 3130
+                    }
                 }
             },
             {
@@ -3766,7 +5390,14 @@
                     "endOffset": 15151
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 77,
+                        "startColumn": 4,
+                        "startOffset": 3515,
+                        "endColumn": 52,
+                        "endOffset": 3563
+                    }
                 }
             },
             {
@@ -3778,7 +5409,14 @@
                     "endOffset": 15185
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 1659,
+                        "endColumn": 33,
+                        "endOffset": 1688
+                    }
                 }
             },
             {
@@ -3790,7 +5428,14 @@
                     "endOffset": 15225
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 111,
+                        "startColumn": 4,
+                        "startOffset": 5226,
+                        "endColumn": 39,
+                        "endOffset": 5261
+                    }
                 }
             },
             {
@@ -3802,7 +5447,14 @@
                     "endOffset": 15263
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 170,
+                        "startColumn": 4,
+                        "startOffset": 8427,
+                        "endColumn": 37,
+                        "endOffset": 8460
+                    }
                 }
             },
             {
@@ -3833,7 +5485,14 @@
                     "endOffset": 15341
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 2076,
+                        "endColumn": 40,
+                        "endOffset": 2112
+                    }
                 }
             },
             {
@@ -3845,7 +5504,14 @@
                     "endOffset": 15428
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 135,
+                        "startColumn": 4,
+                        "startOffset": 6356,
+                        "endColumn": 86,
+                        "endOffset": 6438
+                    }
                 }
             },
             {
@@ -3857,7 +5523,14 @@
                     "endOffset": 15507
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 204,
+                        "startColumn": 4,
+                        "startOffset": 10477,
+                        "endColumn": 78,
+                        "endOffset": 10551
+                    }
                 }
             },
             {
@@ -3869,7 +5542,14 @@
                     "endOffset": 15545
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 1731,
+                        "endColumn": 37,
+                        "endOffset": 1764
+                    }
                 }
             },
             {
@@ -3881,7 +5561,14 @@
                     "endOffset": 15593
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 87,
+                        "startColumn": 4,
+                        "startOffset": 4036,
+                        "endColumn": 47,
+                        "endOffset": 4079
+                    }
                 }
             },
             {
@@ -3893,7 +5580,14 @@
                     "endOffset": 15658
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 209,
+                        "startColumn": 4,
+                        "startOffset": 10772,
+                        "endColumn": 64,
+                        "endOffset": 10832
+                    }
                 }
             },
             {
@@ -3905,7 +5599,14 @@
                     "endOffset": 15710
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 2517,
+                        "endColumn": 51,
+                        "endOffset": 2564
+                    }
                 }
             },
             {
@@ -3917,7 +5618,14 @@
                     "endOffset": 15759
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 1976,
+                        "endColumn": 48,
+                        "endOffset": 2020
+                    }
                 }
             },
             {
@@ -3929,7 +5637,14 @@
                     "endOffset": 15817
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 289,
+                        "startColumn": 4,
+                        "startOffset": 15242,
+                        "endColumn": 57,
+                        "endOffset": 15295
+                    }
                 }
             },
             {
@@ -3941,7 +5656,14 @@
                     "endOffset": 15857
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 112,
+                        "startColumn": 4,
+                        "startOffset": 5266,
+                        "endColumn": 39,
+                        "endOffset": 5301
+                    }
                 }
             },
             {
@@ -3953,7 +5675,14 @@
                     "endOffset": 15934
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 230,
+                        "startColumn": 4,
+                        "startOffset": 12061,
+                        "endColumn": 76,
+                        "endOffset": 12133
+                    }
                 }
             },
             {
@@ -3965,7 +5694,14 @@
                     "endOffset": 15979
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 258,
+                        "startColumn": 4,
+                        "startOffset": 13735,
+                        "endColumn": 44,
+                        "endOffset": 13775
+                    }
                 }
             },
             {
@@ -3977,7 +5713,14 @@
                     "endOffset": 16035
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 828,
+                        "endColumn": 55,
+                        "endOffset": 879
+                    }
                 }
             },
             {
@@ -3989,7 +5732,14 @@
                     "endOffset": 16098
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 184,
+                        "startColumn": 4,
+                        "startOffset": 9279,
+                        "endColumn": 62,
+                        "endOffset": 9337
+                    }
                 }
             },
             {
@@ -4001,7 +5751,14 @@
                     "endOffset": 16136
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1272,
+                        "endColumn": 37,
+                        "endOffset": 1305
+                    }
                 }
             },
             {
@@ -4013,7 +5770,14 @@
                     "endOffset": 16181
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 294,
+                        "startColumn": 4,
+                        "startOffset": 15510,
+                        "endColumn": 44,
+                        "endOffset": 15550
+                    }
                 }
             },
             {
@@ -4025,7 +5789,14 @@
                     "endOffset": 16217
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 228,
+                        "endColumn": 35,
+                        "endOffset": 259
+                    }
                 }
             },
             {
@@ -4037,7 +5808,14 @@
                     "endOffset": 16266
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 79,
+                        "startColumn": 4,
+                        "startOffset": 3625,
+                        "endColumn": 48,
+                        "endOffset": 3669
+                    }
                 }
             },
             {
@@ -4049,7 +5827,14 @@
                     "endOffset": 16329
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 149,
+                        "startColumn": 4,
+                        "startOffset": 7157,
+                        "endColumn": 62,
+                        "endOffset": 7215
+                    }
                 }
             },
             {
@@ -4061,7 +5846,14 @@
                     "endOffset": 16367
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 84,
+                        "startColumn": 4,
+                        "startOffset": 3915,
+                        "endColumn": 37,
+                        "endOffset": 3948
+                    }
                 }
             },
             {
@@ -4073,7 +5865,14 @@
                     "endOffset": 16411
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 4,
+                        "startOffset": 2415,
+                        "endColumn": 43,
+                        "endOffset": 2454
+                    }
                 }
             },
             {
@@ -4085,7 +5884,14 @@
                     "endOffset": 16452
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 262,
+                        "startColumn": 4,
+                        "startOffset": 13967,
+                        "endColumn": 40,
+                        "endOffset": 14003
+                    }
                 }
             },
             {
@@ -4097,7 +5903,14 @@
                     "endOffset": 16505
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 284,
+                        "startColumn": 4,
+                        "startOffset": 14951,
+                        "endColumn": 52,
+                        "endOffset": 14999
+                    }
                 }
             },
             {
@@ -4109,7 +5922,14 @@
                     "endOffset": 16550
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 291,
+                        "startColumn": 4,
+                        "startOffset": 15366,
+                        "endColumn": 44,
+                        "endOffset": 15406
+                    }
                 }
             },
             {
@@ -4121,7 +5941,14 @@
                     "endOffset": 16600
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 4,
+                        "startOffset": 2569,
+                        "endColumn": 49,
+                        "endOffset": 2614
+                    }
                 }
             },
             {
@@ -4133,7 +5960,14 @@
                     "endOffset": 16646
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 884,
+                        "endColumn": 45,
+                        "endOffset": 925
+                    }
                 }
             },
             {
@@ -4145,7 +5979,14 @@
                     "endOffset": 16710
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 157,
+                        "startColumn": 4,
+                        "startOffset": 7669,
+                        "endColumn": 63,
+                        "endOffset": 7728
+                    }
                 }
             },
             {
@@ -4176,7 +6017,14 @@
                     "endOffset": 16814
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 131,
+                        "startColumn": 4,
+                        "startOffset": 6121,
+                        "endColumn": 57,
+                        "endOffset": 6174
+                    }
                 }
             },
             {
@@ -4188,7 +6036,14 @@
                     "endOffset": 16876
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 196,
+                        "startColumn": 4,
+                        "startOffset": 9996,
+                        "endColumn": 61,
+                        "endOffset": 10053
+                    }
                 }
             },
             {
@@ -4200,7 +6055,14 @@
                     "endOffset": 16915
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 4,
+                        "startOffset": 3392,
+                        "endColumn": 38,
+                        "endOffset": 3426
+                    }
                 }
             },
             {
@@ -4212,7 +6074,14 @@
                     "endOffset": 16950
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 4,
+                        "startOffset": 3059,
+                        "endColumn": 34,
+                        "endOffset": 3089
+                    }
                 }
             },
             {
@@ -4224,7 +6093,14 @@
                     "endOffset": 16989
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 76,
+                        "startColumn": 4,
+                        "startOffset": 3476,
+                        "endColumn": 38,
+                        "endOffset": 3510
+                    }
                 }
             },
             {
@@ -4236,7 +6112,14 @@
                     "endOffset": 17039
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 301,
+                        "startColumn": 4,
+                        "startOffset": 15857,
+                        "endColumn": 49,
+                        "endOffset": 15902
+                    }
                 }
             },
             {
@@ -4248,7 +6131,14 @@
                     "endOffset": 17076
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 4,
+                        "startOffset": 3218,
+                        "endColumn": 36,
+                        "endOffset": 3250
+                    }
                 }
             },
             {
@@ -4260,7 +6150,14 @@
                     "endOffset": 17137
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 187,
+                        "startColumn": 4,
+                        "startOffset": 9461,
+                        "endColumn": 60,
+                        "endOffset": 9517
+                    }
                 }
             },
             {
@@ -4272,7 +6169,14 @@
                     "endOffset": 17198
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 199,
+                        "startColumn": 4,
+                        "startOffset": 10179,
+                        "endColumn": 60,
+                        "endOffset": 10235
+                    }
                 }
             },
             {
@@ -4284,7 +6188,14 @@
                     "endOffset": 17242
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 98,
+                        "endColumn": 43,
+                        "endOffset": 137
+                    }
                 }
             },
             {
@@ -4296,7 +6207,14 @@
                     "endOffset": 17292
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 142,
+                        "endColumn": 49,
+                        "endOffset": 187
+                    }
                 }
             },
             {
@@ -4308,7 +6226,14 @@
                     "endOffset": 17351
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 161,
+                        "startColumn": 4,
+                        "startOffset": 7916,
+                        "endColumn": 58,
+                        "endOffset": 7970
+                    }
                 }
             },
             {
@@ -4320,7 +6245,14 @@
                     "endOffset": 17415
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 212,
+                        "startColumn": 4,
+                        "startOffset": 10972,
+                        "endColumn": 63,
+                        "endOffset": 11031
+                    }
                 }
             },
             {
@@ -4332,7 +6264,14 @@
                     "endOffset": 17467
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 295,
+                        "startColumn": 4,
+                        "startOffset": 15555,
+                        "endColumn": 51,
+                        "endOffset": 15602
+                    }
                 }
             },
             {
@@ -4344,7 +6283,14 @@
                     "endOffset": 17525
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 304,
+                        "startColumn": 4,
+                        "startOffset": 15985,
+                        "endColumn": 57,
+                        "endOffset": 16038
+                    }
                 }
             },
             {
@@ -4356,7 +6302,14 @@
                     "endOffset": 17576
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 300,
+                        "startColumn": 4,
+                        "startOffset": 15806,
+                        "endColumn": 50,
+                        "endOffset": 15852
+                    }
                 }
             },
             {
@@ -4368,7 +6321,14 @@
                     "endOffset": 17634
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 309,
+                        "startColumn": 4,
+                        "startOffset": 16247,
+                        "endColumn": 57,
+                        "endOffset": 16300
+                    }
                 }
             },
             {
@@ -4380,7 +6340,14 @@
                     "endOffset": 17695
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 308,
+                        "startColumn": 4,
+                        "startOffset": 16186,
+                        "endColumn": 60,
+                        "endOffset": 16242
+                    }
                 }
             },
             {
@@ -4392,7 +6359,14 @@
                     "endOffset": 17754
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 311,
+                        "startColumn": 4,
+                        "startOffset": 16367,
+                        "endColumn": 58,
+                        "endOffset": 16421
+                    }
                 }
             },
             {
@@ -4404,7 +6378,14 @@
                     "endOffset": 17816
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 310,
+                        "startColumn": 4,
+                        "startOffset": 16305,
+                        "endColumn": 61,
+                        "endOffset": 16362
+                    }
                 }
             },
             {
@@ -4416,7 +6397,14 @@
                     "endOffset": 17871
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 119,
+                        "startColumn": 4,
+                        "startOffset": 5560,
+                        "endColumn": 54,
+                        "endOffset": 5610
+                    }
                 }
             },
             {
@@ -4428,7 +6416,14 @@
                     "endOffset": 17935
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 147,
+                        "startColumn": 4,
+                        "startOffset": 7028,
+                        "endColumn": 63,
+                        "endOffset": 7087
+                    }
                 }
             },
             {
@@ -4440,7 +6435,14 @@
                     "endOffset": 17987
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 270,
+                        "startColumn": 4,
+                        "startOffset": 14301,
+                        "endColumn": 51,
+                        "endOffset": 14348
+                    }
                 }
             },
             {
@@ -4452,7 +6454,14 @@
                     "endOffset": 18048
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 274,
+                        "startColumn": 4,
+                        "startOffset": 14466,
+                        "endColumn": 60,
+                        "endOffset": 14522
+                    }
                 }
             },
             {
@@ -4464,7 +6473,14 @@
                     "endOffset": 18104
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 269,
+                        "startColumn": 4,
+                        "startOffset": 14245,
+                        "endColumn": 55,
+                        "endOffset": 14296
+                    }
                 }
             },
             {
@@ -4476,7 +6492,14 @@
                     "endOffset": 18169
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 273,
+                        "startColumn": 4,
+                        "startOffset": 14401,
+                        "endColumn": 64,
+                        "endOffset": 14461
+                    }
                 }
             },
             {
@@ -4488,7 +6511,14 @@
                     "endOffset": 18216
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 271,
+                        "startColumn": 4,
+                        "startOffset": 14353,
+                        "endColumn": 46,
+                        "endOffset": 14395
+                    }
                 }
             },
             {
@@ -4500,7 +6530,14 @@
                     "endOffset": 18272
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 275,
+                        "startColumn": 4,
+                        "startOffset": 14527,
+                        "endColumn": 55,
+                        "endOffset": 14578
+                    }
                 }
             },
             {
@@ -4531,7 +6568,14 @@
                     "endOffset": 18370
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 731,
+                        "endColumn": 40,
+                        "endOffset": 767
+                    }
                 }
             },
             {
@@ -4543,7 +6587,14 @@
                     "endOffset": 18412
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 110,
+                        "startColumn": 4,
+                        "startOffset": 5184,
+                        "endColumn": 41,
+                        "endOffset": 5221
+                    }
                 }
             },
             {
@@ -4555,7 +6606,14 @@
                     "endOffset": 18451
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 4,
+                        "startOffset": 2117,
+                        "endColumn": 38,
+                        "endOffset": 2151
+                    }
                 }
             },
             {
@@ -4567,7 +6625,14 @@
                     "endOffset": 18488
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 69,
+                        "startColumn": 4,
+                        "startOffset": 3181,
+                        "endColumn": 36,
+                        "endOffset": 3213
+                    }
                 }
             },
             {
@@ -4579,7 +6644,14 @@
                     "endOffset": 18534
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 4,
+                        "startOffset": 2194,
+                        "endColumn": 45,
+                        "endOffset": 2235
+                    }
                 }
             },
             {
@@ -4591,7 +6663,14 @@
                     "endOffset": 18584
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 72,
+                        "startColumn": 4,
+                        "startOffset": 3296,
+                        "endColumn": 49,
+                        "endOffset": 3341
+                    }
                 }
             },
             {
@@ -4603,7 +6682,14 @@
                     "endOffset": 18639
                 },
                 "from": {
-                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml"
+                    "file": "E:\\SuperWeChat\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 160,
+                        "startColumn": 4,
+                        "startOffset": 7861,
+                        "endColumn": 54,
+                        "endOffset": 7911
+                    }
                 }
             }
         ]

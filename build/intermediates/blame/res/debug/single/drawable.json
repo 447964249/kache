@@ -88,12 +88,12 @@
         "source": "E:\\SuperWeChat\\res\\drawable\\btn_bottom_selector.xml"
     },
     {
-        "merged": "E:\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\chat_error_item_bg.xml",
-        "source": "E:\\SuperWeChat\\res\\drawable\\chat_error_item_bg.xml"
-    },
-    {
         "merged": "E:\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\chat_face_selector.xml",
         "source": "E:\\SuperWeChat\\res\\drawable\\chat_face_selector.xml"
+    },
+    {
+        "merged": "E:\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\chat_error_item_bg.xml",
+        "source": "E:\\SuperWeChat\\res\\drawable\\chat_error_item_bg.xml"
     },
     {
         "merged": "E:\\SuperWeChat\\build\\intermediates\\res\\merged\\debug\\drawable\\chatfrom_bg.xml",

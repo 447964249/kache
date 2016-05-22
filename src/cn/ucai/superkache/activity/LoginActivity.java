@@ -265,7 +265,7 @@ private  void  setListener(){
 		findViewById(R.id.btnRegister).setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				startActivityForResult(new Intent(mContext, RegisterActivity.class), 0);
+				startActivityForResult(new Intent(LoginActivity.this, RegisterActivity.class), 0);
 			}
 		});
 
