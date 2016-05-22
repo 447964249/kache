@@ -189,7 +189,6 @@ public class LoginActivity extends BaseActivity {
         User user = dao.findUserByUsername(currentPassword);
         if (user != null) {
             if (user.getMUserPassword().equals(MD5.getData(currentPassword))) {
-                saveUser(user);
                 loginSuccess();
             } else {
                 pd.dismiss();
@@ -244,6 +243,9 @@ public class LoginActivity extends BaseActivity {
             EMChatManager.getInstance().loadAllConversations();
             // 处理好友和群组
             initializeContacts();
+            //下载用户头像到SD卡
+
+
         } catch (Exception e) {
             e.printStackTrace();
             // 取好友或者群聊失败，不让进入主页面
