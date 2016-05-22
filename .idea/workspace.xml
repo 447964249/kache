@@ -25,29 +25,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e764211e-cb49-4092-a44f-d4f3444d5bde" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/cn/ucai/superkache/utils/ApiParams.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/cn/ucai/superkache/utils/BitmapLruCache.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/cn/ucai/superkache/utils/GsonRequest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/cn/ucai/superkache/utils/MultipartRequest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/cn/ucai/superkache/utils/RequestManager.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_login.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_login.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_register.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_register.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_splash.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_splash.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_login.xml" afterPath="$PROJECT_DIR$/res/layout/activity_login.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/ucai/superkache/activity/LoginActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superkache/activity/LoginActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/ucai/superkache/utils/ImageUtils.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superkache/utils/ImageUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_register.xml" afterPath="$PROJECT_DIR$/res/layout/activity_register.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/ucai/superkache/activity/RegisterActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superkache/activity/RegisterActivity.java" />
     </list>
     <ignored path="SuperWeChat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,35 +78,49 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.821428">
-              <caret line="67" column="60" selection-start-line="67" selection-start-column="60" selection-end-line="67" selection-end-column="60" />
+            <state vertical-scroll-proportion="-14.25">
+              <caret line="75" column="62" selection-start-line="75" selection-start-column="62" selection-end-line="75" selection-end-column="62" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/ucai/superkache/activity/LoginActivity.java">
+      <file leaf-file-name="RegisterActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/ucai/superkache/activity/RegisterActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.45174825">
-              <caret line="175" column="58" selection-start-line="175" selection-start-column="58" selection-end-line="175" selection-end-column="58" />
+            <state vertical-scroll-proportion="0.43872115">
+              <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
               <folding>
-                <element signature="e#3360#6497#0" expanded="true" />
-                <element signature="e#3518#3550#0" expanded="true" />
-                <element signature="e#3812#3846#0" expanded="true" />
-                <element signature="e#3971#4004#0" expanded="true" />
-                <element signature="e#4371#4401#0" expanded="true" />
-                <element signature="e#5397#5426#0" expanded="true" />
-                <element signature="e#5472#5473#0" expanded="true" />
-                <element signature="e#6373#6405#0" expanded="true" />
-                <element signature="e#6496#6497#0" expanded="true" />
-                <element signature="e#6737#6799#0" expanded="true" />
-                <element signature="e#6959#7004#0" expanded="true" />
-                <element signature="e#7239#7284#0" expanded="true" />
-                <element signature="e#7810#7970#0" expanded="true" />
-                <element signature="e#7969#7970#0" expanded="true" />
+                <element signature="e#2357#2499#0" expanded="true" />
+                <element signature="e#2498#2499#0" expanded="true" />
+                <element signature="e#2657#7431#0" expanded="true" />
+                <element signature="e#3098#3177#0" expanded="true" />
+                <element signature="e#3386#3464#0" expanded="true" />
+                <element signature="e#3681#3767#0" expanded="true" />
+                <element signature="e#3980#4052#0" expanded="true" />
+                <element signature="e#4318#4389#0" expanded="true" />
+                <element signature="e#5181#5258#0" expanded="true" />
+                <element signature="e#5977#6048#0" expanded="true" />
+                <element signature="e#6257#6330#0" expanded="true" />
+                <element signature="e#6532#6624#0" expanded="true" />
+                <element signature="e#6831#6902#0" expanded="true" />
+                <element signature="e#7065#7138#0" expanded="true" />
+                <element signature="e#7430#7431#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_register.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/activity_register.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.224138">
+              <caret line="184" column="42" selection-start-line="184" selection-start-column="33" selection-end-line="184" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -1070,26 +1064,26 @@
         <option value="$PROJECT_DIR$/res/values-zh-rCN/strings.xml" />
         <option value="$PROJECT_DIR$/src/cn/easemob/chatuidemo/activity/RegisterActivity.java" />
         <option value="$PROJECT_DIR$/src/cn/ucai/chatuidemo/activity/RegisterActivity.java" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superkache/activity/RegisterActivity.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/cn/ucai/superkache/I.java" />
         <option value="$PROJECT_DIR$/src/cn/ucai/superkache/SuperWeChatApplication.java" />
         <option value="$PROJECT_DIR$/src/cn/ucai/superkache/bean/User.java" />
         <option value="$PROJECT_DIR$/src/cn/ucai/superkache/db/UserDao.java" />
-        <option value="$PROJECT_DIR$/res/layout/activity_register.xml" />
         <option value="$PROJECT_DIR$/res/layout/activity_splash.xml" />
         <option value="$PROJECT_DIR$/src/cn/ucai/superkache/utils/ImageUtils.java" />
         <option value="$PROJECT_DIR$/res/layout/activity_login.xml" />
         <option value="$PROJECT_DIR$/src/cn/ucai/superkache/activity/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/activity_register.xml" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/superkache/activity/RegisterActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
-    <option name="y" value="-8" />
-    <option name="width" value="1874" />
-    <option name="height" value="1096" />
+    <option name="x" value="805" />
+    <option name="y" value="83" />
+    <option name="width" value="1101" />
+    <option name="height" value="944" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -1667,7 +1661,13 @@
       <option name="project" value="LOCAL" />
       <updated>1463902542811</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="login修改与实现按钮">
+      <created>1463904804664</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1463904804664</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1680,7 +1680,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
+    <frame x="805" y="83" width="1101" height="944" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.4911797" order="6" side_tool="false" content_ui="tabs" />
@@ -1691,14 +1691,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5088203" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.48897463" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853025" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20682302" sideWeight="0.4845645" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24681933" sideWeight="0.4845645" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.49558985" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897604" sideWeight="0.4911797" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15600882" sideWeight="0.4904051" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27185398" sideWeight="0.4904051" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -1743,14 +1743,15 @@
     <MESSAGE value="三个布局文件优化" />
     <MESSAGE value="闪屏赖宝宝制造" />
     <MESSAGE value="添加拍照选择资源文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加拍照选择资源文件" />
+    <MESSAGE value="login修改与实现按钮" />
+    <option name="LAST_COMMIT_MESSAGE" value="login修改与实现按钮" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/cn/ucai/superkache/activity/RegisterActivity.java</url>
-          <line>99</line>
+          <line>36</line>
           <properties />
         </line-breakpoint>
       </breakpoints>
@@ -2155,33 +2156,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_register.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="226" column="12" selection-start-line="226" selection-start-column="12" selection-end-line="226" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superkache/activity/RegisterActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6753507">
-          <caret line="41" column="58" selection-start-line="41" selection-start-column="58" selection-end-line="41" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.821428">
-          <caret line="67" column="60" selection-start-line="67" selection-start-column="60" selection-end-line="67" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/activity_login.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43310657">
@@ -2195,7 +2169,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/ucai/superkache/activity/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.45174825">
+        <state vertical-scroll-proportion="-0.5737122">
           <caret line="175" column="58" selection-start-line="175" selection-start-column="58" selection-end-line="175" selection-end-column="58" />
           <folding>
             <element signature="e#3360#6497#0" expanded="true" />
@@ -2212,6 +2186,49 @@
             <element signature="e#7239#7284#0" expanded="true" />
             <element signature="e#7810#7970#0" expanded="true" />
             <element signature="e#7969#7970#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.25">
+          <caret line="75" column="62" selection-start-line="75" selection-start-column="62" selection-end-line="75" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_register.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.224138">
+          <caret line="184" column="42" selection-start-line="184" selection-start-column="33" selection-end-line="184" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superkache/activity/RegisterActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43872115">
+          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding>
+            <element signature="e#2357#2499#0" expanded="true" />
+            <element signature="e#2498#2499#0" expanded="true" />
+            <element signature="e#2657#7431#0" expanded="true" />
+            <element signature="e#3098#3177#0" expanded="true" />
+            <element signature="e#3386#3464#0" expanded="true" />
+            <element signature="e#3681#3767#0" expanded="true" />
+            <element signature="e#3980#4052#0" expanded="true" />
+            <element signature="e#4318#4389#0" expanded="true" />
+            <element signature="e#5181#5258#0" expanded="true" />
+            <element signature="e#5977#6048#0" expanded="true" />
+            <element signature="e#6257#6330#0" expanded="true" />
+            <element signature="e#6532#6624#0" expanded="true" />
+            <element signature="e#6831#6902#0" expanded="true" />
+            <element signature="e#7065#7138#0" expanded="true" />
+            <element signature="e#7430#7431#0" expanded="true" />
           </folding>
         </state>
       </provider>
