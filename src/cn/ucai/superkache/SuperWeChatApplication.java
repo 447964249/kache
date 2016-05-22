@@ -21,6 +21,7 @@ import cn.ucai.superkache.bean.Contact;
 import cn.ucai.superkache.bean.Group;
 import cn.ucai.superkache.bean.Member;
 import cn.ucai.superkache.bean.User;
+import cn.ucai.superkache.data.RequestManager;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -124,6 +125,8 @@ public  static String SERVER_ROOT="10.0.2.2:1614/SuperWeChatServer/Server";
          * }
          */
         hxSDKHelper.onInit(applicationContext);
+		RequestManager.init(applicationContext);
+
 	}
 
 	public static SuperWeChatApplication getInstance() {
