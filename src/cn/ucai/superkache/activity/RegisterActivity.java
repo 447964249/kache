@@ -252,6 +252,23 @@ public class RegisterActivity extends BaseActivity {
 
     private void unRegister() {
         //取消注册
+        //url=http://10.0.2.2:8080/SuperWeChatServer/Server?request=unregister&m_user_name=
+        OkHttpUtils<Message> utils = new OkHttpUtils<Message>();
+        utils.url(SuperWeChatApplication.SERVER_ROOT)
+                .addParam(I.KEY_REQUEST,I.REQUEST_UNREGISTER)
+                .addParam(I.User.USER_NAME,username)
+                .targetClass(Message.class)
+                .execute(new OkHttpUtils.OnCompleteListener<Message>() {
+                    @Override
+                    public void onSuccess(Message result) {
+                        Log.e(TAG, "onSuccess:注册成功 "+result.getMsg() );
+                    }
+
+                    @Override
+                    public void onError(String error) {
+
+                    }
+                });
     }
 
     public void back(View view) {
