@@ -1,6 +1,7 @@
 package cn.ucai.superkache.Listener;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
@@ -235,7 +236,7 @@ public class OnSetAvatarListener implements View.OnClickListener {
      * 返回拍照文件保存的位置
      * @return
      */
-    public static File getAvatarFile(Activity activity, String avatar){
+    public static File getAvatarFile(Context activity, String avatar){
         File dir = activity.getExternalFilesDir(Environment.DIRECTORY_PICTURES);
         File file;
         try {

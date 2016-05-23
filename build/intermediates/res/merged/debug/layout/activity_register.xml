@@ -222,6 +222,7 @@
                 android:layout_weight="1"
                 android:background="#fff"
                 android:text="返回登陆"
+                android:id="@+id/btnLogin"
                 android:textColor="#000"/>
 
             <Button
@@ -236,6 +237,7 @@
                 android:paddingBottom="7dp"
                 android:paddingTop="7dp"
                 android:text="@string/register"
+                android:id="@+id/btnRegister"
                 android:textColor="@android:color/white"
                 android:textSize="20sp" />
         </LinearLayout>

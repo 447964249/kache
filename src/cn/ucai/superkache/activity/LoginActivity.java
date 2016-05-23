@@ -13,6 +13,9 @@
  */
 package cn.ucai.superkache.activity;
 
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -36,18 +39,23 @@ import com.android.volley.Response;
 import com.easemob.EMCallBack;
 
 import cn.ucai.superkache.I;
+import cn.ucai.superkache.Listener.OnSetAvatarListener;
 import cn.ucai.superkache.applib.controller.HXSDKHelper;
 
 import com.easemob.chat.EMChatManager;
 import com.easemob.chat.EMGroupManager;
+import com.squareup.okhttp.Callback;
+import com.squareup.okhttp.Request;
 
 import cn.ucai.superkache.Constant;
 import cn.ucai.superkache.SuperWeChatApplication;
 import cn.ucai.superkache.DemoHXSDKHelper;
 import cn.ucai.superkache.R;
+import cn.ucai.superkache.bean.Message;
 import cn.ucai.superkache.bean.User;
 import cn.ucai.superkache.data.ApiParams;
 import cn.ucai.superkache.data.GsonRequest;
+import cn.ucai.superkache.data.OkHttpUtils;
 import cn.ucai.superkache.db.EMUserDao;
 import cn.ucai.superkache.db.UserDao;
 import cn.ucai.superkache.domain.EMUser;
@@ -57,7 +65,6 @@ import cn.ucai.superkache.utils.Utils;
 
 /**
  * 登陆页面
- *
  */
 public class LoginActivity extends BaseActivity {
     ProgressDialog pd;
@@ -235,17 +242,36 @@ public class LoginActivity extends BaseActivity {
 
     }
 
+
     private void loginSuccess() {
         try {
             // ** 第一次登录或者之前logout后再登录，加载所有本地群和回话
             // ** manually load all local groups and
             EMGroupManager.getInstance().loadAllGroups();
             EMChatManager.getInstance().loadAllConversations();
+
+            //下载用户头像到SD卡
+            final OkHttpUtils<Message> utils = new OkHttpUtils<Message>();
+            utils.url(SuperWeChatApplication.SERVER_ROOT)
+                    .addParam(I.KEY_REQUEST, I.REQUEST_DOWNLOAD_AVATAR)
+                    .addParam(I.AVATAR_TYPE, currentUsername)
+                    .doInBackground(new Callback() {
+                        @Override
+                        public void onFailure(Request request, IOException e) {
+                            Toast.makeText(mContext, e.getMessage(), Toast.LENGTH_SHORT).show();
+                        }
+
+                        @Override
+                        public void onResponse(com.squareup.okhttp.Response response) throws IOException {
+                            String avatarPath = I.AVATAR_TYPE_USER_PATH + I.BACKSLASH + currentUsername + I.AVATAR_SUFFIX_JPG;
+                            File file = OnSetAvatarListener.getAvatarFile(mContext, avatarPath);
+                            FileOutputStream out = null;
+                            out = new FileOutputStream(file);
+                            utils.downloadFile(response, file, false);
+                        }
+                    }).execute(null);
             // 处理好友和群组
             initializeContacts();
-            //下载用户头像到SD卡
-
-
         } catch (Exception e) {
             e.printStackTrace();
             // 取好友或者群聊失败，不让进入主页面
@@ -334,7 +360,7 @@ public class LoginActivity extends BaseActivity {
         findViewById(R.id.btnRegister).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivityForResult(new Intent(LoginActivity.this, RegisterActivity.class), 0);
+                startActivity(new Intent(LoginActivity.this, RegisterActivity.class));
             }
         });
 

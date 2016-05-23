@@ -22,6 +22,7 @@ import android.provider.Settings;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
@@ -76,7 +77,6 @@ public class RegisterActivity extends BaseActivity {
         confirmPwdEditText = (EditText) findViewById(cn.ucai.superkache.R.id.confirm_password);
         usernickEditText = (EditText) findViewById(R.id.etNick);
         mIVAvatar = (ImageView) findViewById(R.id.iv_avatar);
-
     }
 
     private void setListener() {
@@ -108,7 +108,9 @@ public class RegisterActivity extends BaseActivity {
         Avatar = System.currentTimeMillis() + "";
         return Avatar;
     }
-
+    public void goLogin(View view){
+        finish();
+    }
     private void onLoginClickListener() {
         findViewById(R.id.btnLogin).setOnClickListener(new View.OnClickListener() {
             @Override
