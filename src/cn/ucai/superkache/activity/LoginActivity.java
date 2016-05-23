@@ -193,7 +193,7 @@ public class LoginActivity extends BaseActivity {
 
     private void loginAppServer() {
         UserDao dao = new UserDao(mContext);
-        User user = dao.findUserByUsername(currentPassword);
+        User user = dao.findUserByUserName(currentPassword);
         if (user != null) {
             if (user.getMUserPassword().equals(MD5.getData(currentPassword))) {
                 loginSuccess();
