@@ -5,10 +5,18 @@ import android.text.TextUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import cn.ucai.superkache.I;
+import cn.ucai.superkache.R;
+import cn.ucai.superkache.SuperWeChatApplication;
 import cn.ucai.superkache.applib.controller.HXSDKHelper;
 import cn.ucai.superkache.DemoHXSDKHelper;
+import cn.ucai.superkache.bean.Contact;
+import cn.ucai.superkache.data.RequestManager;
 import cn.ucai.superkache.domain.EMUser;
+
+import com.android.volley.toolbox.NetworkImageView;
 import com.squareup.picasso.Picasso;
+import com.squareup.picasso.Request;
 
 public class UserUtils {
     /**
@@ -29,7 +37,12 @@ public class UserUtils {
         }
         return user;
     }
-    
+    public static Contact getUserBeanInfo(String username){
+		Contact contact = SuperWeChatApplication.getInstance().getUserList().get(username);
+
+		return contact;
+	}
+
     /**
      * 设置用户头像
      * @param username
@@ -42,8 +55,28 @@ public class UserUtils {
             Picasso.with(context).load(cn.ucai.superkache.R.drawable.default_avatar).into(imageView);
         }
     }
-    
-    /**
+	public static void setUserBeanAvatar(String username, NetworkImageView ImageView){
+		Contact contact = getUserBeanInfo(username);
+		if (contact!=null&&contact.getMContactCname()!=null){
+			setUserAvatar(getAvatarPath(username),ImageView);
+		}
+	}
+
+
+
+private static void setUserAvatar(String url,NetworkImageView ImageView){
+	if (url==null||url.isEmpty())return;
+	ImageView.setDefaultImageResId(R.drawable.default_avatar);
+	ImageView.setImageUrl(url, RequestManager.getImageLoader());
+	ImageView.setErrorImageResId(R.drawable.default_avatar);
+}
+	private static String getAvatarPath(String username) {
+		if (username.isEmpty()||username==null) return null;
+		String path = I.DOWNLOAD_AVATAR_USER_URL + username;
+		return path;
+	}
+
+	/**
      * 设置当前用户头像
      */
 	public static void setCurrentUserAvatar(Context context, ImageView imageView) {
@@ -79,7 +112,7 @@ public class UserUtils {
     
     /**
      * 保存或更新某个用户
-     * @param user
+     * @param
      */
 	public static void saveUserInfo(EMUser newUser) {
 		if (newUser == null || newUser.getUsername() == null) {
