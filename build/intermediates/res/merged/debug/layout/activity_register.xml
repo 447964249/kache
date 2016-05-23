@@ -221,7 +221,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_weight="1"
                 android:background="#fff"
-                android:text="返回登陆"
+                android:text="@string/dl_cancel"
                 android:id="@+id/btnLogin"
                 android:textColor="#000"/>
 
