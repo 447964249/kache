@@ -39,7 +39,7 @@ public class SplashActivity extends BaseActivity {
 
 		rootLayout = (RelativeLayout) findViewById(cn.ucai.superkache.R.id.splash_root);
 		versionText = (TextView) findViewById(cn.ucai.superkache.R.id.tv_version);
-		///////////////
+		///////////////自动退出
 		EMChatManager.getInstance().logout();
 		versionText.setText(getVersion());
 		AlphaAnimation animation = new AlphaAnimation(0.3f, 1.0f);
@@ -53,6 +53,7 @@ public class SplashActivity extends BaseActivity {
 		if (DemoHXSDKHelper.getInstance().isLogined()) {
 			User user= SuperWeChatApplication.getInstance().getUser();
 			SuperWeChatApplication instance = SuperWeChatApplication.getInstance();
+
 			instance.setUser(user);
 // 登陆成功，保存用户名密码
 			instance.setUserName(user.getMUserName());

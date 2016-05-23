@@ -19,6 +19,7 @@ import cn.ucai.superkache.utils.Utils;
 
 /**
  * Created by Administrator on 2016/5/23.
+ * 下载联系人
  */
 public class DownloadContactListTask extends BaseActivity {
     private static final String TAG = DownloadContactListTask.class.getName();

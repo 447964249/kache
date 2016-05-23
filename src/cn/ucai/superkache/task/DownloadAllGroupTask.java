@@ -19,6 +19,7 @@ import cn.ucai.superkache.utils.Utils;
 
 /**
  * Created by Administrator on 2016/5/23.
+ * 下载群组
  */
 public class DownloadAllGroupTask extends BaseActivity {
     private static final String TAG = DownloadAllGroupTask.class.getName();
