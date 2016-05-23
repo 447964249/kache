@@ -39,7 +39,6 @@ public class UserUtils {
     }
     public static Contact getUserBeanInfo(String username){
 		Contact contact = SuperWeChatApplication.getInstance().getUserList().get(username);
-
 		return contact;
 	}
 
@@ -99,6 +98,18 @@ private static void setUserAvatar(String url,NetworkImageView ImageView){
     		textView.setText(username);
     	}
     }
+	public  static void setUserBeanNick(String username,TextView textView){
+		Contact contact = getUserBeanInfo(username);
+		if (contact!=null){
+			if (contact.getMUserNick()!=null){
+				textView.setText(contact.getMUserNick());
+			} else 	if (contact.getMContactCname()!=null){
+				textView.setText(contact.getMContactCname());
+			}
+		}else {
+			textView.setText(username);
+		}
+	}
     
     /**
      * 设置当前用户昵称
