@@ -13,6 +13,7 @@
  */
 package cn.ucai.superkache.adapter;
 
+import java.net.NetworkInterface;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -30,8 +31,11 @@ import android.widget.SectionIndexer;
 import android.widget.TextView;
 
 import cn.ucai.superkache.Constant;
+import cn.ucai.superkache.R;
 import cn.ucai.superkache.domain.EMUser;
 import cn.ucai.superkache.utils.UserUtils;
+
+import com.android.volley.toolbox.NetworkImageView;
 import com.easemob.util.EMLog;
 
 /**
@@ -60,7 +64,7 @@ public class ContactAdapter extends ArrayAdapter<EMUser>  implements SectionInde
 	}
 	
 	private static class ViewHolder {
-	    ImageView avatar;
+	    NetworkImageView avatar;
 	    TextView unreadMsgView;
 	    TextView nameTextview;
 	    TextView tvHeader;
@@ -71,7 +75,7 @@ public class ContactAdapter extends ArrayAdapter<EMUser>  implements SectionInde
  		if(convertView == null){
  		    holder = new ViewHolder();
 			convertView = layoutInflater.inflate(res, null);
-			holder.avatar = (ImageView) convertView.findViewById(cn.ucai.superkache.R.id.avatar);
+			holder.avatar = (NetworkImageView) convertView.findViewById(cn.ucai.superkache.R.id.avatar);
 			holder.unreadMsgView = (TextView) convertView.findViewById(cn.ucai.superkache.R.id.unread_msg_number);
 			holder.nameTextview = (TextView) convertView.findViewById(cn.ucai.superkache.R.id.name);
 			holder.tvHeader = (TextView) convertView.findViewById(cn.ucai.superkache.R.id.header);
@@ -99,7 +103,7 @@ public class ContactAdapter extends ArrayAdapter<EMUser>  implements SectionInde
 		//显示申请与通知item
 		if(username.equals(Constant.NEW_FRIENDS_USERNAME)){
 		    holder.nameTextview.setText(user.getNick());
-		    holder.avatar.setImageResource(cn.ucai.superkache.R.drawable.new_friends_icon);
+		    holder.avatar.setDefaultImageResId(R.drawable.new_friends_icon);
 			if(user.getUnreadMsgCount() > 0){
 			    holder.unreadMsgView.setVisibility(View.VISIBLE);
 //			    holder.unreadMsgView.setText(user.getUnreadMsgCount()+"");
