@@ -452,41 +452,41 @@ public class ContactlistFragment extends Fragment {
 	private void getContactList() {
 		contactList.clear();
 		//获取本地好友列表
-		Map<String, EMUser> users = ((DemoHXSDKHelper)HXSDKHelper.getInstance()).getContactList();
-		Iterator<Entry<String, EMUser>> iterator = users.entrySet().iterator();
-		while (iterator.hasNext()) {
-			Entry<String, EMUser> entry = iterator.next();
-			if (!entry.getKey().equals(Constant.NEW_FRIENDS_USERNAME)
-			        && !entry.getKey().equals(Constant.GROUP_USERNAME)
-			        && !entry.getKey().equals(Constant.CHAT_ROOM)
-					&& !entry.getKey().equals(Constant.CHAT_ROBOT)
-					&& !blackList.contains(entry.getKey()))
-				contactList.add(entry.getValue());
-		}
-		// 排序
-		Collections.sort(contactList, new Comparator<EMUser>() {
-
-			@Override
-			public int compare(EMUser lhs, EMUser rhs) {
-				return lhs.getUsername().compareTo(rhs.getUsername());
-			}
-		});
-
-		if(users.get(Constant.CHAT_ROBOT)!=null){
-			contactList.add(0, users.get(Constant.CHAT_ROBOT));
-		}
-		// 加入"群聊"和"聊天室"
-        if(users.get(Constant.CHAT_ROOM) != null)
-            contactList.add(0, users.get(Constant.CHAT_ROOM));
-        if(users.get(Constant.GROUP_USERNAME) != null)
-            contactList.add(0, users.get(Constant.GROUP_USERNAME));
-        
-		// 把"申请与通知"添加到首位
-		if(users.get(Constant.NEW_FRIENDS_USERNAME) != null)
-		    contactList.add(0, users.get(Constant.NEW_FRIENDS_USERNAME));
-		
+//		Map<String, EMUser> users = ((DemoHXSDKHelper)HXSDKHelper.getInstance()).getContactList();
+//		Iterator<Entry<String, EMUser>> iterator = users.entrySet().iterator();
+//		while (iterator.hasNext()) {
+//			Entry<String, EMUser> entry = iterator.next();
+//			if (!entry.getKey().equals(Constant.NEW_FRIENDS_USERNAME)
+//			        && !entry.getKey().equals(Constant.GROUP_USERNAME)
+//			        && !entry.getKey().equals(Constant.CHAT_ROOM)
+//					&& !entry.getKey().equals(Constant.CHAT_ROBOT)
+//					&& !blackList.contains(entry.getKey()))
+//				contactList.add(entry.getValue());
+//		}
+//		// 排序
+//		Collections.sort(contactList, new Comparator<EMUser>() {
+//
+//			@Override
+//			public int compare(EMUser lhs, EMUser rhs) {
+//				return lhs.getUsername().compareTo(rhs.getUsername());
+//			}
+//		});
+//
+//		if(users.get(Constant.CHAT_ROBOT)!=null){
+//			contactList.add(0, users.get(Constant.CHAT_ROBOT));
+//		}
+//		// 加入"群聊"和"聊天室"
+//        if(users.get(Constant.CHAT_ROOM) != null)
+//            contactList.add(0, users.get(Constant.CHAT_ROOM));
+//        if(users.get(Constant.GROUP_USERNAME) != null)
+//            contactList.add(0, users.get(Constant.GROUP_USERNAME));
+//
+//		// 把"申请与通知"添加到首位
+//		if(users.get(Constant.NEW_FRIENDS_USERNAME) != null)
+//		    contactList.add(0, users.get(Constant.NEW_FRIENDS_USERNAME));
+//
 	}
-	
+
 	void hideSoftKeyboard() {
         if (getActivity().getWindow().getAttributes().softInputMode != WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN) {
             if (getActivity().getCurrentFocus() != null)

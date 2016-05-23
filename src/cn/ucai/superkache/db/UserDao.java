@@ -5,6 +5,7 @@ package cn.ucai.superkache.db;
         import android.database.Cursor;
         import android.database.sqlite.SQLiteDatabase;
         import android.database.sqlite.SQLiteOpenHelper;
+        import android.util.Log;
 
         import cn.ucai.superkache.I;
         import cn.ucai.superkache.bean.User;
@@ -27,6 +28,7 @@ public class UserDao extends SQLiteOpenHelper {
                 I.User.PASSWORD +" varchar, " +
                 I.User.UN_READ_MSG_COUNT +" int default(0) " +
                 ");";
+        Log.e("123","sql "+sql);
         db.execSQL(sql);
     }
 
@@ -47,17 +49,17 @@ public class UserDao extends SQLiteOpenHelper {
     }
 
     public User findUserByUserName(String userName){
-        SQLiteDatabase db = getReadableDatabase();
-        String sql = "select * from "+ TABLE_NAME + " where " + I.User.USER_NAME  + "=?";
-        Cursor c = db.rawQuery(sql,new String []{userName});
-        if(c.moveToNext()){
-            int uid = c.getInt(c.getColumnIndex(I.User.USER_ID));
-            String nick = c.getString(c.getColumnIndex(I.User.NICK));
-            String password = c.getString(c.getColumnIndex(I.User.PASSWORD));
-            int unReaderMsgCount = c.getInt(c.getColumnIndex(I.User.UN_READ_MSG_COUNT));
-            return new User(uid,userName,password,nick,unReaderMsgCount);
+        SQLiteDatabase db = getWritableDatabase();
+        String sql = "select * from " + TABLE_NAME + " where " + I.User.USER_NAME + "=?";
+        Cursor cursor = db.rawQuery(sql, new String[]{userName});
+        if (cursor.moveToNext()) {
+            int id = cursor.getInt(cursor.getColumnIndex(I.User.USER_ID));
+            String nick = cursor.getString(cursor.getColumnIndex(I.User.NICK));
+            String password = cursor.getString(cursor.getColumnIndex(I.User.PASSWORD));
+            int unmessage = cursor.getInt(cursor.getColumnIndex(I.User.UN_READ_MSG_COUNT));
+            return new User(id, userName, password, nick, unmessage);
         }
-        c.close();
+        cursor.close();
         return null;
     }
 

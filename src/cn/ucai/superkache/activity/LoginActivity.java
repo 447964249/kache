@@ -59,6 +59,9 @@ import cn.ucai.superkache.data.OkHttpUtils;
 import cn.ucai.superkache.db.EMUserDao;
 import cn.ucai.superkache.db.UserDao;
 import cn.ucai.superkache.domain.EMUser;
+import cn.ucai.superkache.task.DownloadAllGroupTask;
+import cn.ucai.superkache.task.DownloadContactListTask;
+import cn.ucai.superkache.task.DownloadPublicGroupTask;
 import cn.ucai.superkache.utils.CommonUtils;
 import cn.ucai.superkache.utils.MD5;
 import cn.ucai.superkache.utils.Utils;
@@ -193,9 +196,10 @@ public class LoginActivity extends BaseActivity {
 
     private void loginAppServer() {
         UserDao dao = new UserDao(mContext);
-        User user = dao.findUserByUserName(currentPassword);
+        User user = dao.findUserByUserName(currentUsername);
         if (user != null) {
             if (user.getMUserPassword().equals(MD5.getData(currentPassword))) {
+                saveUser(user);
                 loginSuccess();
             } else {
                 pd.dismiss();
@@ -222,6 +226,9 @@ public class LoginActivity extends BaseActivity {
             public void onResponse(User user) {
                 if (user.isResult()) {
                     saveUser(user);
+                    user.setMUserPassword(MD5.getData(user.getMUserPassword()));
+                    UserDao dao = new UserDao(mContext);
+                    dao.addUser(user);
                     loginSuccess();
                 } else {
                     pd.dismiss();
@@ -236,7 +243,7 @@ public class LoginActivity extends BaseActivity {
         SuperWeChatApplication instance = SuperWeChatApplication.getInstance();
         instance.setUser(user);
 // 登陆成功，保存用户名密码
-        instance.setUserName(user.getMUserName());
+        instance.setUserName(currentUsername);
         instance.setPassword(currentPassword);
         SuperWeChatApplication.currentUserNick = user.getMUserNick();
 
@@ -270,6 +277,15 @@ public class LoginActivity extends BaseActivity {
                             utils.downloadFile(response, file, false);
                         }
                     }).execute(null);
+            runOnUiThread(new Runnable() {
+                @Override
+                public void run() {
+                    new DownloadContactListTask(mContext,currentUsername).execute();
+                    new DownloadAllGroupTask(mContext,currentUsername).execute();
+                    new DownloadPublicGroupTask(mContext,currentUsername,I.PAGE_ID_DEFAULT,I.PAGE_SIZE_DEFAULT).execute();
+                }
+            });
+
             // 处理好友和群组
             initializeContacts();
         } catch (Exception e) {

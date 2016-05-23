@@ -1,5 +1,6 @@
 package cn.ucai.superkache.activity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
@@ -12,6 +13,12 @@ import android.widget.TextView;
 import com.easemob.chat.EMChatManager;
 import com.easemob.chat.EMGroupManager;
 import cn.ucai.superkache.DemoHXSDKHelper;
+import cn.ucai.superkache.I;
+import cn.ucai.superkache.SuperWeChatApplication;
+import cn.ucai.superkache.bean.User;
+import cn.ucai.superkache.task.DownloadAllGroupTask;
+import cn.ucai.superkache.task.DownloadContactListTask;
+import cn.ucai.superkache.task.DownloadPublicGroupTask;
 
 /**
  * 开屏页
@@ -20,6 +27,7 @@ import cn.ucai.superkache.DemoHXSDKHelper;
 public class SplashActivity extends BaseActivity {
 	private RelativeLayout rootLayout;
 	private TextView versionText;
+	Context mcontext;
 	
 	private static final int sleepTime = 2000;
 
@@ -27,10 +35,12 @@ public class SplashActivity extends BaseActivity {
 	protected void onCreate(Bundle arg0) {
 		setContentView(cn.ucai.superkache.R.layout.activity_splash);
 		super.onCreate(arg0);
+		mcontext = this;
 
 		rootLayout = (RelativeLayout) findViewById(cn.ucai.superkache.R.id.splash_root);
 		versionText = (TextView) findViewById(cn.ucai.superkache.R.id.tv_version);
-
+		///////////////
+		EMChatManager.getInstance().logout();
 		versionText.setText(getVersion());
 		AlphaAnimation animation = new AlphaAnimation(0.3f, 1.0f);
 		animation.setDuration(1500);
@@ -40,7 +50,21 @@ public class SplashActivity extends BaseActivity {
 	@Override
 	protected void onStart() {
 		super.onStart();
+		if (DemoHXSDKHelper.getInstance().isLogined()) {
+			User user= SuperWeChatApplication.getInstance().getUser();
+			SuperWeChatApplication instance = SuperWeChatApplication.getInstance();
+			instance.setUser(user);
+// 登陆成功，保存用户名密码
+			instance.setUserName(user.getMUserName());
+			instance.setPassword(user.getMUserPassword());
+			SuperWeChatApplication.currentUserNick = user.getMUserNick();
 
+			String currentUsername = user.getMUserName();
+			new DownloadContactListTask(mcontext,currentUsername).execute();
+			new DownloadAllGroupTask(mcontext,currentUsername).execute();
+			new DownloadPublicGroupTask(mcontext,currentUsername, I.PAGE_ID_DEFAULT,I.PAGE_SIZE_DEFAULT).execute();
+
+		}
 		new Thread(new Runnable() {
 			public void run() {
 				if (DemoHXSDKHelper.getInstance().isLogined()) {

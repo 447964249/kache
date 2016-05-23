@@ -24,20 +24,30 @@ public class DownloadPublicGroupTask extends BaseActivity {
     private static final String TAG = DownloadPublicGroupTask.class.getName();
     Context mcontext;
     String update_public_group;
+    int pageId;
+    int pageSize;
     String path;
 
-    public DownloadPublicGroupTask(Context mcontext, String update_public_group) {
-        this.mcontext = mcontext;
+    public DownloadPublicGroupTask(Context mcontext,String update_public_group,  int pageId, int pageSize) {
         this.update_public_group = update_public_group;
+        this.mcontext = mcontext;
+        this.pageId = pageId;
+        this.pageSize = pageSize;
         initPath();
     }
+
+
+
 
     private void initPath() {
         try {
 
-            //url= http://10.0.2.2:8080/SuperWeChatServer/Server?request=download_groups&m_user_name=
+            //http://10.0.2.2:8080/SuperWeChatServer/Server?request=download_public_groups&m_user_name=&page_id=&page_size=
+
             path = new ApiParams()
-                    .with(I.REQUEST_FIND_PUBLIC_GROUPS,update_public_group)
+                    .with(I.User.USER_NAME,update_public_group)
+                    .with(I.PAGE_ID,""+pageId)
+                    .with(I.PAGE_SIZE,""+pageSize)
                     .getRequestUrl(I.REQUEST_FIND_PUBLIC_GROUPS);
         } catch (Exception e) {
             e.printStackTrace();

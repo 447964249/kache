@@ -38,7 +38,7 @@ public class DownloadAllGroupTask extends BaseActivity {
             //m_contact_user_name
 
             path = new ApiParams()
-                    .with(I.REQUEST_DOWNLOAD_GROUPS,update_group_list)
+                    .with(I.User.USER_NAME,update_group_list)
                     .getRequestUrl(I.REQUEST_DOWNLOAD_GROUPS);
         } catch (Exception e) {
             e.printStackTrace();
