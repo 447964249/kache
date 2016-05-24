@@ -34,6 +34,7 @@ import android.widget.TextView;
 import cn.ucai.superkache.Constant;
 import cn.ucai.superkache.R;
 import cn.ucai.superkache.bean.Contact;
+import cn.ucai.superkache.data.RequestManager;
 import cn.ucai.superkache.domain.EMUser;
 import cn.ucai.superkache.utils.UserUtils;
 
@@ -111,6 +112,8 @@ public class ContactAdapter extends BaseAdapter implements SectionIndexer{
 		if(username.equals(Constant.NEW_FRIENDS_USERNAME)){
 		    holder.nameTextview.setText(user.getMUserNick());
 		    holder.avatar.setDefaultImageResId(R.drawable.new_friends_icon);
+			holder.avatar.setImageUrl("", RequestManager.getImageLoader());
+			holder.avatar.setErrorImageResId(R.drawable.new_friends_icon);
 			if(user.getMUserUnreadMsgCount() > 0){
 			    holder.unreadMsgView.setVisibility(View.VISIBLE);
 //			    holder.unreadMsgView.setText(user.getUnreadMsgCount()+"");
@@ -120,7 +123,9 @@ public class ContactAdapter extends BaseAdapter implements SectionIndexer{
 		}else if(username.equals(Constant.GROUP_USERNAME)){
 			//群聊item
 		    holder.nameTextview.setText(user.getMUserNick());
-		    holder.avatar.setImageResource(cn.ucai.superkache.R.drawable.groups_icon);
+			holder.avatar.setImageResource(cn.ucai.superkache.R.drawable.groups_icon);
+			holder.avatar.setImageUrl("", RequestManager.getImageLoader());
+			holder.avatar.setErrorImageResId(R.drawable.groups_icon);
 		}else if(username.equals(Constant.CHAT_ROOM)){
             //群聊item
             holder.nameTextview.setText(user.getMUserNick());
