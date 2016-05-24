@@ -102,7 +102,7 @@ public class ContactlistFragment extends Fragment {
     private String toBeProcessUsername;
 
     ContactListChangedReceiver mReceiver;
-    ArrayList<Contact> mContactList;
+    ArrayList<Contact> mContactList=new   ArrayList<Contact>();
 
     class HXContactSyncListener implements HXSyncListener {
         @Override
