@@ -35,7 +35,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e764211e-cb49-4092-a44f-d4f3444d5bde" name="Default" comment="修改17头像布局">
+    <list default="true" id="e764211e-cb49-4092-a44f-d4f3444d5bde" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
@@ -49,45 +49,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/layout.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/row_received_file.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/row_received_file.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/row_received_location.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/row_received_location.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/row_received_menu.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/row_received_menu.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/row_received_message.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/row_received_message.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/row_received_picture.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/row_received_picture.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/row_received_video.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/row_received_video.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/row_received_video_call.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/row_received_video_call.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/row_received_voice.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/row_received_voice.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/row_received_voice_call.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/row_received_voice_call.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/row_sent_file.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/row_sent_file.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/row_sent_location.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/row_sent_location.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/row_sent_message.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/row_sent_message.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/row_sent_picture.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/row_sent_picture.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/row_sent_video.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/row_sent_video.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/row_sent_video_call.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/row_sent_video_call.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/row_sent_voice.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/row_sent_voice.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/row_sent_voice_call.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/row_sent_voice_call.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/row_received_file.xml" afterPath="$PROJECT_DIR$/res/layout/row_received_file.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/row_received_location.xml" afterPath="$PROJECT_DIR$/res/layout/row_received_location.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/row_received_menu.xml" afterPath="$PROJECT_DIR$/res/layout/row_received_menu.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/row_received_message.xml" afterPath="$PROJECT_DIR$/res/layout/row_received_message.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/row_received_picture.xml" afterPath="$PROJECT_DIR$/res/layout/row_received_picture.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/row_received_video.xml" afterPath="$PROJECT_DIR$/res/layout/row_received_video.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/row_received_video_call.xml" afterPath="$PROJECT_DIR$/res/layout/row_received_video_call.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/row_received_voice.xml" afterPath="$PROJECT_DIR$/res/layout/row_received_voice.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/row_received_voice_call.xml" afterPath="$PROJECT_DIR$/res/layout/row_received_voice_call.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/row_sent_file.xml" afterPath="$PROJECT_DIR$/res/layout/row_sent_file.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/row_sent_location.xml" afterPath="$PROJECT_DIR$/res/layout/row_sent_location.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/row_sent_message.xml" afterPath="$PROJECT_DIR$/res/layout/row_sent_message.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/row_sent_picture.xml" afterPath="$PROJECT_DIR$/res/layout/row_sent_picture.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/row_sent_video.xml" afterPath="$PROJECT_DIR$/res/layout/row_sent_video.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/row_sent_video_call.xml" afterPath="$PROJECT_DIR$/res/layout/row_sent_video_call.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/row_sent_voice.xml" afterPath="$PROJECT_DIR$/res/layout/row_sent_voice.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/row_sent_voice_call.xml" afterPath="$PROJECT_DIR$/res/layout/row_sent_voice_call.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/ucai/superkache/Fragment/ContactlistFragment.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superkache/Fragment/ContactlistFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/ucai/superkache/activity/ChatActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superkache/activity/ChatActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/ucai/superkache/adapter/MessageAdapter.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superkache/adapter/MessageAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/ucai/superkache/utils/UserUtils.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superkache/utils/UserUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
     </list>
     <list id="2934ba26-8745-47f2-8742-6fc01a5fa497" name="Rejected commit: Default" comment="userdao+5*Fragment" />
     <list id="88dd4df5-beba-46c1-b3f2-fa950d199d4a" name="Rejected commit: Default (2)" comment="修改17头像布局" />
@@ -140,8 +102,8 @@
       <file leaf-file-name="ContactlistFragment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/ucai/superkache/Fragment/ContactlistFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16435987">
-              <caret line="501" column="11" selection-start-line="501" selection-start-column="11" selection-end-line="501" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.28373703">
+              <caret line="510" column="35" selection-start-line="510" selection-start-column="35" selection-end-line="510" selection-end-column="35" />
               <folding>
                 <element signature="e#4500#4558#0" expanded="true" />
                 <element signature="e#6950#6965#0" expanded="true" />
@@ -1391,97 +1353,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SuperWeChat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SuperWeChat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ucai" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="superkache" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bean" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SuperWeChat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SuperWeChat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ucai" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="superkache" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="adapter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SuperWeChat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SuperWeChat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ucai" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="superkache" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activity" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2050,7 +1922,13 @@
       <option name="project" value="LOCAL" />
       <updated>1464071310142</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="添加群聊通知">
+      <created>1464075216500</created>
+      <option name="number" value="00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1464075216500</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TodoView">
@@ -2067,14 +1945,14 @@
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.4911797" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22921109" sideWeight="0.48511046" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2284689" sideWeight="0.48511046" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15600882" sideWeight="0.50959486" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24554707" sideWeight="0.52161384" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27392346" sideWeight="0.52487564" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2803838" sideWeight="0.48511046" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29519072" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27392346" sideWeight="0.47838616" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27392346" sideWeight="0.4751244" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27292112" sideWeight="0.4911797" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.4911797" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2108,7 +1986,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="闪屏赖宝宝制造" />
     <MESSAGE value="添加拍照选择资源文件" />
     <MESSAGE value="login修改与实现按钮" />
     <MESSAGE value="编写注册方法" />
@@ -2133,7 +2010,8 @@
     <MESSAGE value="显示用户头像" />
     <MESSAGE value="显示用户昵称" />
     <MESSAGE value="修改17头像布局" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改17头像布局" />
+    <MESSAGE value="添加群聊通知" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加群聊通知" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2634,8 +2512,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/ucai/superkache/Fragment/ContactlistFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16435987">
-          <caret line="501" column="11" selection-start-line="501" selection-start-column="11" selection-end-line="501" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.28373703">
+          <caret line="510" column="35" selection-start-line="510" selection-start-column="35" selection-end-line="510" selection-end-column="35" />
           <folding>
             <element signature="e#4500#4558#0" expanded="true" />
             <element signature="e#6950#6965#0" expanded="true" />
