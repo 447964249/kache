@@ -2,9 +2,11 @@ package cn.ucai.superkache.utils;
 
 import android.content.Context;
 import android.text.TextUtils;
+import android.util.Log;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import cn.ucai.superkache.Constant;
 import cn.ucai.superkache.I;
 import cn.ucai.superkache.R;
 import cn.ucai.superkache.SuperWeChatApplication;
@@ -15,21 +17,24 @@ import cn.ucai.superkache.data.RequestManager;
 import cn.ucai.superkache.domain.EMUser;
 
 import com.android.volley.toolbox.NetworkImageView;
+import com.easemob.util.HanziToPinyin;
 import com.squareup.picasso.Picasso;
 import com.squareup.picasso.Request;
 
 public class UserUtils {
+	static String TAG = UserUtils.class.getName();
     /**
      * 根据username获取相应user，由于demo没有真实的用户数据，这里给的模拟的数据；
      * @param username
      * @return
      */
     public static EMUser getUserInfo(String username){
-        EMUser user = ((DemoHXSDKHelper) HXSDKHelper.getInstance()).getContactList().get(username);
+		String TAG = EMUser.class.getName();
+		EMUser user = ((DemoHXSDKHelper) HXSDKHelper.getInstance()).getContactList().get(username);
         if(user == null){
             user = new EMUser(username);
         }
-            
+
         if(user != null){
             //demo没有这些数据，临时填充
         	if(TextUtils.isEmpty(user.getNick()))
@@ -61,9 +66,8 @@ public class UserUtils {
 		}
 	}
 
-
-
 private static void setUserAvatar(String url,NetworkImageView ImageView){
+	Log.e(TAG, "setUserAvatar: " );
 	if (url==null||url.isEmpty())return;
 	ImageView.setDefaultImageResId(R.drawable.default_avatar);
 	ImageView.setImageUrl(url, RequestManager.getImageLoader());
@@ -131,5 +135,31 @@ private static void setUserAvatar(String url,NetworkImageView ImageView){
 		}
 		((DemoHXSDKHelper) HXSDKHelper.getInstance()).saveContact(newUser);
 	}
-    
+	/**
+	 * 设置hearder属性，方便通讯中对联系人按header分类显示，以及通过右侧ABCD...字母栏快速定位联系人
+	 *
+	 * @param username
+	 * @param user
+	 */
+	public static void setUserHearder(String username, Contact user) {
+		String headerName = null;
+		if (!TextUtils.isEmpty(user.getMUserNick())) {
+			headerName = user.getMUserNick();
+		} else {
+			headerName = user.getMContactCname();
+		}
+		if (username.equals(Constant.NEW_FRIENDS_USERNAME)
+				||username.equals(Constant.GROUP_USERNAME)) {
+			user.setHeade("");
+		} else if (Character.isDigit(headerName.charAt(0))) {
+			user.setHeade("#");
+		} else {
+			user.setHeade(HanziToPinyin.getInstance().get(headerName.substring(0, 1)).get(0).target.substring(0, 1)
+					.toUpperCase());
+			char header = user.getHeade().toLowerCase().charAt(0);
+			if (header < 'a' || header > 'z') {
+				user.setHeade("#");
+			}
+		}
+	}
 }

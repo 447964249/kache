@@ -390,7 +390,7 @@ public class ChatActivity extends BaseActivity implements OnClickListener, EMEve
 					((TextView) findViewById(cn.ucai.superkache.R.id.name)).setText(toChatUsername);
 				}
 			}else{
-				UserUtils.setUserNick(toChatUsername, (TextView) findViewById(cn.ucai.superkache.R.id.name));
+				UserUtils.setUserBeanNick(toChatUsername, (TextView) findViewById(cn.ucai.superkache.R.id.name));
 			}
 		} else {
 			// 群聊
@@ -670,7 +670,7 @@ public class ChatActivity extends BaseActivity implements OnClickListener, EMEve
 					sendLocationMsg(latitude, longitude, "", locationAddress);
 				} else {
 					String st = getResources().getString(cn.ucai.superkache.R.string.unable_to_get_loaction);
-					Toast.makeText(this, st, 0).show();
+					Toast.makeText(this, st, Toast.LENGTH_SHORT).show();
 				}
 				// 重发消息
 			} else if (requestCode == REQUEST_CODE_TEXT || requestCode == REQUEST_CODE_VOICE
@@ -899,7 +899,7 @@ public class ChatActivity extends BaseActivity implements OnClickListener, EMEve
 	 * 
 	 * @param content
 	 *            message content
-	 * @param isResend
+	 * @param
 	 *            boolean resend
 	 */
 	public void sendText(String content) {
