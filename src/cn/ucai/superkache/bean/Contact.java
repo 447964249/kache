@@ -20,7 +20,8 @@ public class Contact extends User implements java.io.Serializable {
 	@Override
 	public boolean equals(Object o) {
 		if (this == o) return true;
-		if (o == null || getClass() != o.getClass()) return false;
+		if (!(o instanceof Contact)) return false;
+		if (!super.equals(o)) return false;
 
 		Contact contact = (Contact) o;
 
@@ -30,8 +31,12 @@ public class Contact extends User implements java.io.Serializable {
 
 	@Override
 	public int hashCode() {
-		return mcontactId.hashCode();
+		int result = super.hashCode();
+		result = 31 * result + mcontactId.hashCode();
+		return result;
 	}
+
+
 // Constructors
 
 	/** default constructor */

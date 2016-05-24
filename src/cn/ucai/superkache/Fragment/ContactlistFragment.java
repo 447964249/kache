@@ -475,6 +475,7 @@ public class ContactlistFragment extends Fragment {
 
         // 添加"群聊"
         Contact groupUser = new Contact();
+        groupUser.setMContactId(-2);
         String strGroup = getActivity().getString(cn.ucai.superkache.R.string.group_chat);
         groupUser.setMUserName(Constant.GROUP_USERNAME);
         groupUser.setMUserNick(strGroup);
@@ -483,6 +484,7 @@ public class ContactlistFragment extends Fragment {
             mContactList.add(0, groupUser);
         // 添加user"申请与通知"
         Contact newFriends = new Contact();
+        groupUser.setMContactId(-1);
         newFriends.setMContactUserName(Constant.NEW_FRIENDS_USERNAME);
         String strChat = getActivity().getString(cn.ucai.superkache.R.string.Application_and_notify);
         newFriends.setMUserNick(strChat);
