@@ -133,6 +133,12 @@ private static void setUserAvatar(String url,NetworkImageView ImageView){
     		textView.setText(user.getNick());
     	}
     }
+	public static void setCurrentUserBeanNick(TextView textView){
+		User user = SuperWeChatApplication.getInstance().getUser();
+		if(user !=null && user.getMUserNick()!=null&& textView != null){
+			textView.setText(user.getMUserNick());
+		}
+	}
     
     /**
      * 保存或更新某个用户
