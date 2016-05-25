@@ -479,7 +479,7 @@ public class ContactlistFragment extends Fragment {
         String strGroup = getActivity().getString(cn.ucai.superkache.R.string.group_chat);
         groupUser.setMUserName(Constant.GROUP_USERNAME);
         groupUser.setMUserNick(strGroup);
-        groupUser.setHeade("");
+        groupUser.setHeader(" ");
         if (mContactList.indexOf(groupUser) == -1)
             mContactList.add(0, groupUser);
         // 添加user"申请与通知"
@@ -499,7 +499,7 @@ public class ContactlistFragment extends Fragment {
 
             @Override
             public int compare(Contact lhs, Contact rhs) {
-                return lhs.getHeade().compareTo(rhs.getMUserName());
+                return lhs.getHeader().compareTo(rhs.getMUserName());
             }
         });
 

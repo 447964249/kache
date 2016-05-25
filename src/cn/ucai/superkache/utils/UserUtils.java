@@ -13,6 +13,7 @@ import cn.ucai.superkache.SuperWeChatApplication;
 import cn.ucai.superkache.applib.controller.HXSDKHelper;
 import cn.ucai.superkache.DemoHXSDKHelper;
 import cn.ucai.superkache.bean.Contact;
+import cn.ucai.superkache.bean.User;
 import cn.ucai.superkache.data.RequestManager;
 import cn.ucai.superkache.domain.EMUser;
 
@@ -90,6 +91,12 @@ private static void setUserAvatar(String url,NetworkImageView ImageView){
 			Picasso.with(context).load(cn.ucai.superkache.R.drawable.default_avatar).into(imageView);
 		}
 	}
+	public static void setCurrentUserAvatar(NetworkImageView imageView) {
+		User user = SuperWeChatApplication.getInstance().getUser();
+		if (user != null) {
+			setUserAvatar(getAvatarPath(user.getMUserName()), imageView);
+		}
+	}
     
     /**
      * 设置用户昵称
@@ -110,9 +117,11 @@ private static void setUserAvatar(String url,NetworkImageView ImageView){
 			} else 	if (contact.getMContactCname()!=null){
 				textView.setText(contact.getMContactCname());
 			}
-		}else {
+		}/*else {
 			textView.setText(username);
-		}
+		}*/
+		if (contact.getMUserNick() == null) {
+			textView.setText(username);}
 	}
     
     /**
@@ -150,15 +159,15 @@ private static void setUserAvatar(String url,NetworkImageView ImageView){
 		}
 		if (username.equals(Constant.NEW_FRIENDS_USERNAME)
 				||username.equals(Constant.GROUP_USERNAME)) {
-			user.setHeade("");
+			user.setHeader("");
 		} else if (Character.isDigit(headerName.charAt(0))) {
-			user.setHeade("#");
+			user.setHeader("#");
 		} else {
-			user.setHeade(HanziToPinyin.getInstance().get(headerName.substring(0, 1)).get(0).target.substring(0, 1)
+			user.setHeader(HanziToPinyin.getInstance().get(headerName.substring(0, 1)).get(0).target.substring(0, 1)
 					.toUpperCase());
-			char header = user.getHeade().toLowerCase().charAt(0);
+			char header = user.getHeader().toLowerCase().charAt(0);
 			if (header < 'a' || header > 'z') {
-				user.setHeade("#");
+				user.setHeader("#");
 			}
 		}
 	}

@@ -36,7 +36,7 @@ public class DownloadContactListTask extends BaseActivity {
     private void initPath() {
         try {
 
-            //url= http://10.0.2.2:8080/SuperWeChatServer/Server?request=download_groups&m_user_name=
+            //http://10.0.2.2:8080/SuperWeChatServer/Server?request=download_contact_all_list&m_contact_user_name=
             path = new ApiParams()
                     .with(I.Contact.USER_NAME, username)
                     .getRequestUrl(I.REQUEST_DOWNLOAD_CONTACT_ALL_LIST);

@@ -94,7 +94,7 @@ public class PickContactNoCheckboxActivity extends BaseActivity {
 
 			@Override
 			public int compare(Contact lhs, Contact rhs) {
-				return lhs.getHeade().compareTo(rhs.getHeade());
+				return lhs.getHeader().compareTo(rhs.getHeader());
 			}
 		});
 	}

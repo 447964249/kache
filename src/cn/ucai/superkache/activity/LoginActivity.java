@@ -212,6 +212,7 @@ public class LoginActivity extends BaseActivity {
                         .with(I.User.USER_NAME, currentUsername)
                         .with(I.User.PASSWORD, currentPassword)
                         .getRequestUrl(I.REQUEST_LOGIN);
+                Log.e(TAG, "loginAppServer: 111"+path );
                 executeRequest(new GsonRequest<User>(path, User.class, responseListener(), errorListener()));
             } catch (Exception e) {
                 e.printStackTrace();
@@ -257,26 +258,7 @@ public class LoginActivity extends BaseActivity {
             EMGroupManager.getInstance().loadAllGroups();
             EMChatManager.getInstance().loadAllConversations();
 
-            //下载用户头像到SD卡
-            final OkHttpUtils<Message> utils = new OkHttpUtils<Message>();
-            utils.url(SuperWeChatApplication.SERVER_ROOT)
-                    .addParam(I.KEY_REQUEST, I.REQUEST_DOWNLOAD_AVATAR)
-                    .addParam(I.AVATAR_TYPE, currentUsername)
-                    .doInBackground(new Callback() {
-                        @Override
-                        public void onFailure(Request request, IOException e) {
-                            Toast.makeText(mContext, e.getMessage(), Toast.LENGTH_SHORT).show();
-                        }
 
-                        @Override
-                        public void onResponse(com.squareup.okhttp.Response response) throws IOException {
-                            String avatarPath = I.AVATAR_TYPE_USER_PATH + I.BACKSLASH + currentUsername + I.AVATAR_SUFFIX_JPG;
-                            File file = OnSetAvatarListener.getAvatarFile(mContext, avatarPath);
-                            FileOutputStream out = null;
-                            out = new FileOutputStream(file);
-                            utils.downloadFile(response, file, false);
-                        }
-                    }).execute(null);
             runOnUiThread(new Runnable() {
                 @Override
                 public void run() {
@@ -313,7 +295,27 @@ public class LoginActivity extends BaseActivity {
         Intent intent = new Intent(LoginActivity.this,
                 MainActivity.class);
         startActivity(intent);
+        //下载用户头像到SD卡
+        final OkHttpUtils<Message> utils = new OkHttpUtils<Message>();
+        utils.url(SuperWeChatApplication.SERVER_ROOT)
+                .addParam(I.KEY_REQUEST, I.REQUEST_DOWNLOAD_AVATAR)
+                .addParam(I.AVATAR_TYPE, currentUsername)
+                .doInBackground(new Callback() {
+                    @Override
+                    public void onFailure(Request request, IOException e) {
+                        Toast.makeText(mContext, e.getMessage(), Toast.LENGTH_SHORT).show();
+                    }
 
+                    @Override
+                    public void onResponse(com.squareup.okhttp.Response response) throws IOException {
+                        String avatarPath = I.AVATAR_TYPE_USER_PATH + I.BACKSLASH
+                                + currentUsername + I.AVATAR_SUFFIX_JPG;
+                        File file = OnSetAvatarListener.getAvatarFile(mContext, avatarPath);
+                        FileOutputStream out = null;
+                        out = new FileOutputStream(file);
+                        utils.downloadFile(response, file, false);
+                    }
+                }).execute(null);
         finish();
     }
 

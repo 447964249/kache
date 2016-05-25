@@ -44,7 +44,7 @@ public class DownloadPublicGroupTask extends BaseActivity {
         try {
 
             //http://10.0.2.2:8080/SuperWeChatServer/Server?request=download_public_groups&m_user_name=&page_id=&page_size=
-
+            //
             path = new ApiParams()
                     .with(I.User.USER_NAME,update_public_group)
                     .with(I.PAGE_ID,""+pageId)

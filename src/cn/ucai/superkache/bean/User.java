@@ -1,6 +1,11 @@
 package cn.ucai.superkache.bean;
 
 
+import android.annotation.TargetApi;
+import android.os.Build;
+
+import java.util.Objects;
+
 /**
  * EMUser entity. @author MyEclipse Persistence Tools
  */
@@ -12,13 +17,13 @@ public class User extends Location implements java.io.Serializable {
 	/**
 	 * 
 	 */
-	private Integer muserId;
+	private Integer muserId=0;
 	private String muserName;
 	private String muserPassword;
 	private String muserNick;
-	private Integer muserUnreadMsgCount;
+	private Integer muserUnreadMsgCount=0;
 
-	private String heade;
+	private String header;
 	// Constructors
 
 	/** default constructor */
@@ -82,39 +87,43 @@ public class User extends Location implements java.io.Serializable {
 		return this.muserUnreadMsgCount;
 	}
 
-	public String getHeade() {
-		return heade;
+	public String getHeader() {
+		return header;
 	}
 
-	public void setHeade(String heade) {
-		this.heade = heade;
+	public void setHeader(String header) {
+		this.header = header;
 	}
 
 	public void setMUserUnreadMsgCount(Integer MUserUnreadMsgCount) {
 		this.muserUnreadMsgCount = MUserUnreadMsgCount;
 	}
 
+	@TargetApi(Build.VERSION_CODES.KITKAT)
 	@Override
 	public boolean equals(Object o) {
 		if (this == o) return true;
 		if (!(o instanceof User)) return false;
-
 		User user = (User) o;
-
-		return muserName.equals(user.muserName);
-
+		return Objects.equals(muserId, user.muserId) &&
+				Objects.equals(muserName, user.muserName) &&
+				Objects.equals(muserPassword, user.muserPassword) &&
+				Objects.equals(muserNick, user.muserNick) &&
+				Objects.equals(muserUnreadMsgCount, user.muserUnreadMsgCount) &&
+				Objects.equals(getHeader(), user.getHeader());
 	}
 
+	@TargetApi(Build.VERSION_CODES.KITKAT)
 	@Override
 	public int hashCode() {
-		return muserName.hashCode();
+		return Objects.hash(muserId, muserName, muserPassword, muserNick, muserUnreadMsgCount, getHeader());
 	}
 
 	@Override
 	public String toString() {
 		return "EMUser [MUserId=" + muserId + ", MUserName=" + muserName
 				+ ", MUserPassword=" + muserPassword + ", MUserNick="
-				+ muserNick + ", MUserUnreadMsgCount=" + muserUnreadMsgCount + ", heade="+heade
+				+ muserNick + ", MUserUnreadMsgCount=" + muserUnreadMsgCount + ", header="+header
 				+ "]";
 	}
 	

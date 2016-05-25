@@ -21,12 +21,19 @@ public class UserDao extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        String sql = "create table if not exists "+ TABLE_NAME +"( " +
+        /*String sql = "create table if not exists "+ TABLE_NAME +"( " +
                 I.User.USER_ID +" integer primary key autoincrement, " +
                 I.User.USER_NAME +" varchar unique not null, " +
                 I.User.NICK +" varchar, " +
                 I.User.PASSWORD +" varchar, " +
                 I.User.UN_READ_MSG_COUNT +" int default(0) " +
+                ");";*/
+        String sql = "CREATE TABLE IF NOT EXISTS " + TABLE_NAME +"("+
+                I.User.USER_ID +" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT," +
+                I.User.USER_NAME +" TEXT NOT NULL," +
+                I.User.PASSWORD + " TEXT NOT NULL," +
+                I.User.NICK + " TEXT NOT NULL," +
+                I.User.UN_READ_MSG_COUNT + " INTEGER DEFAULT 0" +
                 ");";
         Log.e("123","sql "+sql);
         db.execSQL(sql);
@@ -38,6 +45,7 @@ public class UserDao extends SQLiteOpenHelper {
 
     public boolean addUser(User user){
         ContentValues values = new ContentValues();
+        //??
         values.put(I.User.USER_ID,user.getMUserId());
         values.put(I.User.USER_NAME,user.getMUserName());
         values.put(I.User.NICK,user.getMUserNick());

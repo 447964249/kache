@@ -97,8 +97,8 @@ public class ContactAdapter extends BaseAdapter implements SectionIndexer{
 			Log.d("ContactAdapter", position + "");
 		//设置nick，demo里不涉及到完整user，用username代替nick显示
 		String username = user.getMContactCname();
-		String header = user.getHeade();
-		if (position == 0 || header != null && !header.equals(getItem(position - 1).getHeade())) {
+		String header = user.getHeader();
+		if (position == 0 || header != null && !header.equals(getItem(position - 1).getHeader())) {
 			if (TextUtils.isEmpty(header)) {
 			    holder.tvHeader.setVisibility(View.GONE);
 			} else {
@@ -181,7 +181,7 @@ public class ContactAdapter extends BaseAdapter implements SectionIndexer{
 		sectionOfPosition.put(0, 0);
 		for (int i = 1; i < count; i++) {
 
-			String letter = getItem(i).getHeade();
+			String letter = getItem(i).getHeader();
 			EMLog.d(TAG, "contactadapter getsection getHeader:" + letter + " name:" + getItem(i).getMContactCname());
 			int section = list.size() - 1;
 			if (list.get(section) != null && !list.get(section).equals(letter)) {

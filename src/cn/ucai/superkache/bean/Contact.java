@@ -1,5 +1,10 @@
 package cn.ucai.superkache.bean;
 
+import android.annotation.TargetApi;
+import android.os.Build;
+
+import java.util.Objects;
+
 /**
  * Contact entity. @author MyEclipse Persistence Tools
  */
@@ -11,33 +16,29 @@ public class Contact extends User implements java.io.Serializable {
 	 */
 	// Fields
 
-	private Integer mcontactId;
-	private Integer mcontactUserId;
+	private Integer mcontactId=0;
+	private Integer mcontactUserId=0;
 	private String mcontactUserName;
-	private Integer mcontactCid;
+	private Integer mcontactCid=0;
 	private String mcontactCname;
 
+	@TargetApi(Build.VERSION_CODES.KITKAT)
 	@Override
 	public boolean equals(Object o) {
 		if (this == o) return true;
 		if (!(o instanceof Contact)) return false;
 		if (!super.equals(o)) return false;
-
 		Contact contact = (Contact) o;
-
-		return mcontactId.equals(contact.mcontactId);
-
+		return Objects.equals(mcontactId, contact.mcontactId);
 	}
 
+	@TargetApi(Build.VERSION_CODES.KITKAT)
 	@Override
 	public int hashCode() {
-		int result = super.hashCode();
-		result = 31 * result + mcontactId.hashCode();
-		return result;
+		return Objects.hash(super.hashCode(), mcontactId);
 	}
 
-
-// Constructors
+	// Constructors
 
 	/** default constructor */
 	public Contact() {

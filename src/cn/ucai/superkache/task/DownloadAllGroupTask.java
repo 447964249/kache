@@ -24,12 +24,12 @@ import cn.ucai.superkache.utils.Utils;
 public class DownloadAllGroupTask extends BaseActivity {
     private static final String TAG = DownloadAllGroupTask.class.getName();
     Context mcontext;
-    String update_group_list;
+    String username;
     String path;
 
     public DownloadAllGroupTask(Context mcontext, String update_group_list) {
         this.mcontext = mcontext;
-        this.update_group_list = update_group_list;
+        this.username = update_group_list;
         initPath();
     }
 
@@ -39,7 +39,7 @@ public class DownloadAllGroupTask extends BaseActivity {
             //m_contact_user_name
 
             path = new ApiParams()
-                    .with(I.User.USER_NAME,update_group_list)
+                    .with(I.User.USER_NAME,username)
                     .getRequestUrl(I.REQUEST_DOWNLOAD_GROUPS);
         } catch (Exception e) {
             e.printStackTrace();
