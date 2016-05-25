@@ -48,6 +48,7 @@ import com.easemob.EMValueCallBack;
 import cn.ucai.superkache.Fragment.ChatAllHistoryFragment;
 import cn.ucai.superkache.Fragment.ContactlistFragment;
 import cn.ucai.superkache.Fragment.SettingsFragment;
+import cn.ucai.superkache.SuperWeChatApplication;
 import cn.ucai.superkache.applib.controller.HXSDKHelper;
 import com.easemob.chat.EMChatManager;
 import com.easemob.chat.EMContactListener;
@@ -62,6 +63,7 @@ import com.easemob.chat.EMMessage.Type;
 import com.easemob.chat.TextMessageBody;
 import cn.ucai.superkache.Constant;
 import cn.ucai.superkache.DemoHXSDKHelper;
+import cn.ucai.superkache.bean.Contact;
 import cn.ucai.superkache.db.EMUserDao;
 import cn.ucai.superkache.db.InviteMessgeDao;
 import cn.ucai.superkache.domain.EMUser;
@@ -519,14 +521,21 @@ public class MainActivity extends BaseActivity implements EMEventListener {
 		public void onContactAdded(List<String> usernameList) {			
 			// 保存增加的联系人
 			Map<String, EMUser> localUsers = ((DemoHXSDKHelper)HXSDKHelper.getInstance()).getContactList();
+			HashMap<String, Contact> userList = SuperWeChatApplication.getInstance().getUserList();
 			Map<String, EMUser> toAddUsers = new HashMap<String, EMUser>();
+			ArrayList<String> toaddUserName = new ArrayList<String>();
+			boolean isadd = false;
 			for (String username : usernameList) {
 				EMUser user = setUserHead(username);
 				// 添加好友时可能会回调added方法两次
 				if (!localUsers.containsKey(username)) {
 					userDao.saveContact(user);
+					isadd = true;
 				}
 				toAddUsers.put(username, user);
+				if (!userList.containsKey(username)){
+					toaddUserName.add(username);
+				}
 			}
 			localUsers.putAll(toAddUsers);
 			// 刷新ui
